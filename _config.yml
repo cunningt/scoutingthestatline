@@ -14,7 +14,7 @@ github_username:  cunningt
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
 
