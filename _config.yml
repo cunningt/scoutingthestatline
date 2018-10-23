@@ -1,28 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM Remote Theme Test
-email:
+title: Scouting the Statline
+email: tom@scoutingthestatline.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: /mm-remote-theme-test
-url: https://mmistakes.github.io
-twitter_username: mmistakes
-github_username: mmistakes
+  Scouting the Statline is an attempt to find minor league comps.
+baseurl: /
+url: https://www.scoutingthestatline.com
+twitter_username: twcunningham
+github_username: cunningt
 minimal_mistakes_skin: dark
 
 # Build settings
@@ -49,19 +32,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : # optional
-  uri    : "https://mademistakes.com"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  uri    : "https://www.scoutingthestatline.com"
 
 defaults:
   # _posts
