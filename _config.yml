@@ -6,7 +6,7 @@ baseurl: /
 url: https://www.scoutingthestatline.com
 twitter_username: twcunningham
 github_username: cunningt
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: dirt
 
 # Build settings
 markdown: kramdown
@@ -28,7 +28,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Michael Rose"
+  name   : "Scouting the Statline"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : # optional
