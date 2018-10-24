@@ -1,48 +1,21 @@
+baseurl:
 title: Scouting the Statline
-email: tom@scoutingthestatline.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Scouting the Statline is an attempt to find minor league comps.
-baseurl: /
-url: https://www.scoutingthestatline.com
-twitter_username: twcunningham
-github_username: cunningt
-minimal_mistakes_skin: dirt
-
-# Build settings
+subtitle: Minor league comps 
+author: StS 
+simple_search: http://google.com/search
+description: Minor league age based comps 
+name: tufte
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
-author:
-  name   : "Scouting the Statline"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  email  : # optional
-  uri    : "https://www.scoutingthestatline.com"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: America/Boston
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+git:
+  branch: master
