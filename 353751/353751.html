@@ -4,9 +4,14 @@
 <link rel="stylesheet" href="./lightbox.min.css">
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 <script>
-function changeGraphic(img) {
-document.getElementById("graph").src=img;
-document.getElementById("link").href=img;
+function changeGraphic(img, text) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", text);
 }
 </script>
 </head><body>
@@ -14,20 +19,23 @@ document.getElementById("link").href=img;
     <tr>
         <td max-width="75%">
             <b><h2>Vladimir Guerrero, 2018 (AA / EL)</h2></b><br>
-            <b>League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('353751-aa-agebabip.png')">Age/BABIP</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-aa-agebbrate.png')">Age/BB%</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-aa-ageisopsize.png')">Age/ISO</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-aa-agekrate.png')">Age/K%</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-agebabip.png')">Age/BABIP</a><br/>
-            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('353751-ageisop.png')">Age/ISO</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-ageisopsize.png')">Age/ISO</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-agekrate.png')">Age/K%</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-agewoba.png')">Age/wOBA</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-isokrate.png')">ISO/K%</a><br/>
-            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('353751-raaoff.png')">RAA offense</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-raaoffdist.png')">RAA dist</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-waroff.png')">WAR offense</a>
-            <a href="javascript:void(0);" onclick="changeGraphic('353751-waroffdist.png')">WAR dist</a>
+            <b>League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=BABIP&group=league', 'Age/BABIP League Graph')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=bbrate&group=league', 'Age/BB% League Graph')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=ISOP&group=league', 'Age/ISO League Graph')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=krate&group=league', 'Age/K% League Graph')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=WOBA&group=league', 'Age/wOBA League Graph')">Age/wOBA</a><br/>
+            <b>Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=BABIP&group=level', 'Age/BABIP Level Graph')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=bbrate&group=level', 'Age/BB% Level Graph')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=ISOP&group=level', 'Age/ISO Level Graph')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=krate&group=level', 'Age/K% Level Graph')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=WOBA&group=level'), 'Age/wOBA Level Graph'">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353751&criteria=ISOP', 'Age/ISO Comps Graph')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353751&criteria=WOBA', 'Age/wOBA Comps Graph')">Age/wOBA</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353751&criteria=krate'), 'Age/K% Comps Graph'">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353751&criteria=BABIP', 'Age/BABIP Comps Graph')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353751&criteria=bbrate', 'Age/BB% Comps Graph')">ISO/BB%</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=353751&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph')">WAR offense</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=353751&criteria=WAR&graphtype=DIST', 'WAR distribution graph')">WAR dist</a>
 <table class="pure-table pure-table-horizontal" style="max-width:100%;">
 <thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
 <tr>
@@ -55,7 +63,7 @@ document.getElementById("link").href=img;
         </td>
         <td max-width="25%">
             <div>
-                <a id="link" class="example-image-link" href="353751-aa-agebabip.png" data-lightbox="example-2" data-title="Optional caption."><img id="graph" class="example-image" width="320" height="240" src="353751-aa-agebabip.png" alt="image-1"/></a>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=BABIP&group=league" data-lightbox="example-2" data-title="Optional caption."><img id="graph" class="example-image" width="480" height="360" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353751&criteria=ISOP&group=league" alt="Age/ISO graph"/></a>
             </div>
             <script src="./lightbox-plus-jquery.min.js"></script>
         </td>
@@ -105,4 +113,5 @@ document.getElementById("link").href=img;
 <tr>
 <td><a href="https://www.baseball-reference.com/register/player.fcgi?id=reyes-005jos#standard_batting::none"><b>Jose Reyes#</b></a></td><td>18.8192</td><td>2002</td><td>AA</td><td>1.69128</td><td>.138</td><td>.323</td><td>.333</td><td>5.4</td><td>14.2</td><td>36.82</td><td>204.80</td></tr>
 </table>
+</br>
 </body></table>

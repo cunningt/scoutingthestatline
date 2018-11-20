@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Tyler Gaffney, (A+ FLOR)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Tyler Gaffney, 2018 (A+ / FLOR)</h2></b><br>
+            <b>FLOR League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=BABIP&group=league', 'Age/BABIP FLOR League Graph', 'This graph shows Tyler Gaffney in relation to all other players in the FLOR.    The graph shows BABIP according to age, decreasing towards the youngest players in FLOR.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=bbrate&group=league', 'Age/BB% FLOR League Graph', 'This graph shows Tyler Gaffney in relation to all other players in the FLOR.    The graph shows BB% according to age, decreasing towards the youngest players in FLOR.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=ISOP&group=league', 'Age/ISO FLOR League Graph', 'This graph shows Tyler Gaffney in relation to all other players in the FLOR.    The graph shows ISO according to age, decreasing towards the youngest players in FLOR.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=krate&group=league', 'Age/K% FLOR League Graph', 'This graph shows Tyler Gaffney in relation to all other players in the FLOR.    The graph shows K% according to age, decreasing towards the youngest players in FLOR.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=WOBA&group=league', 'Age/wOBA FLOR League Graph', 'This graph shows Tyler Gaffney in relation to all other players in the FLOR.    The graph shows wOBA according to age, decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A+ Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=BABIP&group=level', 'Age/BABIP A+ Level Graph', 'This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows BABIP according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=bbrate&group=level', 'Age/BB% A+ Level Graph', 'This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows BB% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=ISOP&group=level', 'Age/ISO A+ Level Graph', 'This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows ISO according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=krate&group=level', 'Age/K% A+ Level Graph', 'This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows K% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=WOBA&group=level'), 'Age/wOBA A+ Level Graph', 'This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows wOBA according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351001&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Tyler Gaffney in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351001&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Tyler Gaffney in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351001&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Tyler Gaffney in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351001&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Tyler Gaffney in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351001&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Tyler Gaffney in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351001&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Tyler Gaffney's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351001&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Tyler Gaffney's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2012</td><td>20.9644</td><td>A-</td><td>.144</td><td>.362</td><td>.327</td><td>13.2</td><td>13.2</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>26.9671</td><td>A+</td><td>.179</td><td>.346</td><td>.317</td><td>17.2</td><td>5.7</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>26.9671</td><td>AA</td><td>.104</td><td>.221</td><td>.236</td><td>18.4</td><td>8.2</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Tyler Gaffney in relation to all other players at A+.    The graph shows BABIP according to age (decreasing towards the youngest players in A+).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351001&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Tyler Gaffney, 2018 (A+ FLOR)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gaffne000tyl#standard_batting::none"><b>Tyler Gaffney</b></a></td><td>26.9671</td><td>2018</td><td>A+</td><td>0.0</td><td>.179</td><td>.317</td><td>.346</td><td>5.7</td><td>17.2</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=shocke001gre#standard_batting::none"><b>Greg Shockey*</b></a></td><td>26.9918</td><td>1997</td><td>A+</td><td>0.461953</td><td>.194</td><td>.390</td><td>.373</td><td>8.0</td><td>14.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=duncan001jan#standard_batting::none"><b>Carlos Duncan</b></a></td><td>26.7726</td><td>2004</td><td>A+</td><td>0.543446</td><td>.190</td><td>.337</td><td>.328</td><td>5.5</td><td>18.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=spanos001vas#standard_batting::none"><b>Vasili Spanos</b></a></td><td>27.1151</td><td>2008</td><td>A+</td><td>0.66622</td><td>.160</td><td>.319</td><td>.305</td><td>8.1</td><td>15.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=soules001rya#standard_batting::none"><b>Ryan Soules*</b></a></td><td>27.1096</td><td>2003</td><td>A+</td><td>0.720076</td><td>.188</td><td>.344</td><td>.324</td><td>8.1</td><td>20.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pretty001ron#standard_batting::none"><b>Ronnie Prettyman*</b></a></td><td>26.6767</td><td>2008</td><td>A+</td><td>0.751637</td><td>.176</td><td>.344</td><td>.343</td><td>5.3</td><td>19.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=rodrig002gui#standard_batting::none"><b>Guillermo Rodriguez</b></a></td><td>26.8986</td><td>2005</td><td>A+</td><td>0.756312</td><td>.224</td><td>.315</td><td>.305</td><td>5.0</td><td>20.7</td><td>-0.08</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=merced001vic#standard_batting::none"><b>Victor Mercedes#</b></a></td><td>26.9808</td><td>2006</td><td>A+</td><td>0.77161</td><td>.153</td><td>.307</td><td>.293</td><td>6.1</td><td>11.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=fulton001gre#standard_batting::none"><b>Greg Fulton#</b></a></td><td>27.1288</td><td>1990</td><td>A+</td><td>0.782077</td><td>.183</td><td>.315</td><td>.284</td><td>6.0</td><td>13.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=brown-002jas#standard_batting::none"><b>Jason Brown</b></a></td><td>26.8795</td><td>2001</td><td>A+</td><td>0.785098</td><td>.110</td><td>.297</td><td>.343</td><td>6.8</td><td>19.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bynum-001fre#standard_batting::none"><b>Freddie Bynum*</b></a></td><td>27.063</td><td>2007</td><td>A+</td><td>0.812051</td><td>.117</td><td>.262</td><td>.307</td><td>5.3</td><td>21.1</td><td>-1.27</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=paulin002jos#standard_batting::none"><b>Jose Paulino</b></a></td><td>27.074</td><td>1982</td><td>A+</td><td>0.812131</td><td>.124</td><td>.338</td><td>.349</td><td>8.8</td><td>15.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=turner001llo#standard_batting::none"><b>Lloyd Turner</b></a></td><td>26.989</td><td>2007</td><td>A+</td><td>0.816808</td><td>.157</td><td>.276</td><td>.254</td><td>5.9</td><td>18.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ebel--001din#standard_batting::none"><b>Dino Ebel</b></a></td><td>27.0521</td><td>1993</td><td>A+</td><td>0.830359</td><td>.100</td><td>.296</td><td>.325</td><td>6.9</td><td>15.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=eppers001cha#standard_batting::none"><b>Chad Epperson*</b></a></td><td>27.0329</td><td>1999</td><td>A+</td><td>0.872732</td><td>.121</td><td>.273</td><td>.269</td><td>2.9</td><td>17.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kiil--001har#standard_batting::none"><b>Skip Kiil</b></a></td><td>26.9945</td><td>2001</td><td>A+</td><td>0.878558</td><td>.150</td><td>.293</td><td>.333</td><td>0.0</td><td>18.2</td><td>0.00</td></tr>
+</table></br>
+</body></table>

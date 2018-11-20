@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Andres Guerra, (Rk APPY)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Andres Guerra, 2018 (Rk / APPY)</h2></b><br>
+            <b>APPY League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=BABIP&group=league', 'Age/BABIP APPY League Graph', 'This graph shows Andres Guerra in relation to all other players in the APPY.    The graph shows BABIP according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=bbrate&group=league', 'Age/BB% APPY League Graph', 'This graph shows Andres Guerra in relation to all other players in the APPY.    The graph shows BB% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=ISOP&group=league', 'Age/ISO APPY League Graph', 'This graph shows Andres Guerra in relation to all other players in the APPY.    The graph shows ISO according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=krate&group=league', 'Age/K% APPY League Graph', 'This graph shows Andres Guerra in relation to all other players in the APPY.    The graph shows K% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=WOBA&group=league', 'Age/wOBA APPY League Graph', 'This graph shows Andres Guerra in relation to all other players in the APPY.    The graph shows wOBA according to age, decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Rk Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=BABIP&group=level', 'Age/BABIP Rk Level Graph', 'This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=bbrate&group=level', 'Age/BB% Rk Level Graph', 'This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=ISOP&group=level', 'Age/ISO Rk Level Graph', 'This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=krate&group=level', 'Age/K% Rk Level Graph', 'This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=WOBA&group=level'), 'Age/wOBA Rk Level Graph', 'This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351178&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Andres Guerra in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351178&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Andres Guerra in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351178&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Andres Guerra in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351178&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Andres Guerra in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351178&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Andres Guerra in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351178&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Andres Guerra's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351178&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Andres Guerra's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2017</td><td>19.8411</td><td>Rk</td><td>.068</td><td>.161</td><td>.182</td><td>26.0</td><td>10.0</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>20.8411</td><td>Rk</td><td>.154</td><td>.270</td><td>.306</td><td>25.3</td><td>12.0</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Andres Guerra in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351178&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Andres Guerra, 2018 (Rk APPY)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=guerra000and#standard_batting::none"><b>Andres Guerra</b></a></td><td>20.8411</td><td>2018</td><td>Rk</td><td>0.0</td><td>.154</td><td>.306</td><td>.270</td><td>12.0</td><td>25.3</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cronk-001bri#standard_batting::none"><b>Brian Cronk#</b></a></td><td>20.8082</td><td>1998</td><td>Rk</td><td>0.268889</td><td>.166</td><td>.305</td><td>.285</td><td>11.2</td><td>24.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=christ001and#standard_batting::none"><b>Drew Christmon*</b></a></td><td>20.8274</td><td>1993</td><td>Rk</td><td>0.303766</td><td>.168</td><td>.303</td><td>.272</td><td>12.8</td><td>27.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=conner001sea#standard_batting::none"><b>Sean Conner*</b></a></td><td>20.6932</td><td>2008</td><td>Rk</td><td>0.441885</td><td>.133</td><td>.291</td><td>.280</td><td>11.5</td><td>25.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=valdes001jos#standard_batting::none"><b>Jose Valdespino</b></a></td><td>20.8082</td><td>1995</td><td>Rk</td><td>0.480444</td><td>.152</td><td>.287</td><td>.246</td><td>14.2</td><td>26.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=garcia002fre#standard_batting::none"><b>Freddy Garcia</b></a></td><td>20.6795</td><td>1993</td><td>Rk</td><td>0.556012</td><td>.170</td><td>.313</td><td>.279</td><td>10.3</td><td>23.5</td><td>-1.34</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=daniel001dan#standard_batting::none"><b>Daniel Daniel#</b></a></td><td>20.8986</td><td>1974</td><td>Rk</td><td>0.56549</td><td>.141</td><td>.313</td><td>.284</td><td>11.5</td><td>20.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mendez001ram#standard_batting::none"><b>Ramiro Mendez</b></a></td><td>20.9781</td><td>2006</td><td>Rk</td><td>0.574651</td><td>.136</td><td>.299</td><td>.278</td><td>10.7</td><td>22.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cesped001ces#standard_batting::none"><b>Cesar Cespedes#</b></a></td><td>20.8274</td><td>2003</td><td>Rk</td><td>0.591145</td><td>.110</td><td>.254</td><td>.246</td><td>12.1</td><td>27.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=guzman006car#standard_batting::none"><b>Carlos Guzman#</b></a></td><td>20.8685</td><td>2007</td><td>Rk</td><td>0.609662</td><td>.176</td><td>.317</td><td>.261</td><td>15.1</td><td>23.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=frias-001isr#standard_batting::none"><b>Israel Frias</b></a></td><td>20.7178</td><td>1989</td><td>Rk</td><td>0.612262</td><td>.166</td><td>.293</td><td>.259</td><td>9.2</td><td>24.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moni-e001vic#standard_batting::none"><b>Timi Moni-Erigbali</b></a></td><td>20.8192</td><td>2003</td><td>Rk</td><td>0.62372</td><td>.141</td><td>.282</td><td>.308</td><td>9.4</td><td>26.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cowles001jos#standard_batting::none"><b>Josh Cowles</b></a></td><td>20.8301</td><td>2005</td><td>Rk</td><td>0.640867</td><td>.170</td><td>.277</td><td>.260</td><td>10.7</td><td>30.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kostrz001mik#standard_batting::none"><b>Mike Kostrzewa</b></a></td><td>20.9945</td><td>1992</td><td>Rk</td><td>0.661889</td><td>.142</td><td>.266</td><td>.225</td><td>11.8</td><td>21.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jordan001dan#standard_batting::none"><b>Danny Jordan</b></a></td><td>20.9096</td><td>2007</td><td>Rk</td><td>0.667501</td><td>.164</td><td>.312</td><td>.307</td><td>11.9</td><td>30.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=willia001the#standard_batting::none"><b>Teddy Williams</b></a></td><td>20.737</td><td>1987</td><td>Rk</td><td>0.670767</td><td>.148</td><td>.329</td><td>.298</td><td>14.4</td><td>21.4</td><td>0.00</td></tr>
+</table></br>
+</body></table>

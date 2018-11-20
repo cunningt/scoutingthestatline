@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Axel Andueza, (Rk AZL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Axel Andueza, 2018 (Rk / AZL)</h2></b><br>
+            <b>AZL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=BABIP&group=league', 'Age/BABIP AZL League Graph', 'This graph shows Axel Andueza in relation to all other players in the AZL.    The graph shows BABIP according to age, decreasing towards the youngest players in AZL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=bbrate&group=league', 'Age/BB% AZL League Graph', 'This graph shows Axel Andueza in relation to all other players in the AZL.    The graph shows BB% according to age, decreasing towards the youngest players in AZL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=ISOP&group=league', 'Age/ISO AZL League Graph', 'This graph shows Axel Andueza in relation to all other players in the AZL.    The graph shows ISO according to age, decreasing towards the youngest players in AZL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=krate&group=league', 'Age/K% AZL League Graph', 'This graph shows Axel Andueza in relation to all other players in the AZL.    The graph shows K% according to age, decreasing towards the youngest players in AZL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=WOBA&group=league', 'Age/wOBA AZL League Graph', 'This graph shows Axel Andueza in relation to all other players in the AZL.    The graph shows wOBA according to age, decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Rk Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=BABIP&group=level', 'Age/BABIP Rk Level Graph', 'This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=bbrate&group=level', 'Age/BB% Rk Level Graph', 'This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=ISOP&group=level', 'Age/ISO Rk Level Graph', 'This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=krate&group=level', 'Age/K% Rk Level Graph', 'This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=WOBA&group=level'), 'Age/wOBA Rk Level Graph', 'This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352061&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Axel Andueza in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352061&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Axel Andueza in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352061&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Axel Andueza in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352061&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Axel Andueza in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352061&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Axel Andueza in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352061&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Axel Andueza's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352061&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Axel Andueza's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2018</td><td>19.4411</td><td>Rk</td><td>.054</td><td>.313</td><td>.298</td><td>8.8</td><td>6.2</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Axel Andueza in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352061&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Axel Andueza, 2018 (Rk AZL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=anduez000axe#standard_batting::none"><b>Axel Andueza</b></a></td><td>19.4411</td><td>2018</td><td>Rk</td><td>0.0</td><td>.054</td><td>.298</td><td>.313</td><td>6.2</td><td>8.8</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=agnoly001ear#standard_batting::none"><b>Earl Agnoly</b></a></td><td>19.3808</td><td>1995</td><td>Rk</td><td>0.383718</td><td>.032</td><td>.282</td><td>.294</td><td>6.8</td><td>7.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=thomas002byr#standard_batting::none"><b>Byron Thomas</b></a></td><td>19.4932</td><td>1992</td><td>Rk</td><td>0.394289</td><td>.034</td><td>.286</td><td>.314</td><td>5.3</td><td>10.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=batist001jos#standard_batting::none"><b>Jose Batista</b></a></td><td>19.3808</td><td>2001</td><td>Rk</td><td>0.415977</td><td>.059</td><td>.275</td><td>.296</td><td>5.9</td><td>11.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lara--003fra#standard_batting::none"><b>Franklin Lara</b></a></td><td>19.4767</td><td>1999</td><td>Rk</td><td>0.426247</td><td>.057</td><td>.306</td><td>.329</td><td>7.8</td><td>11.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kuo---001yen#standard_batting::none"><b>Yen-Wen Kuo*</b></a></td><td>19.4466</td><td>2008</td><td>Rk</td><td>0.444388</td><td>.052</td><td>.287</td><td>.317</td><td>6.5</td><td>13.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=sutil-001wla#standard_batting::none"><b>Wladimir Sutil</b></a></td><td>19.4301</td><td>2004</td><td>Rk</td><td>0.445909</td><td>.047</td><td>.295</td><td>.335</td><td>7.7</td><td>10.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ayala-001abr#standard_batting::none"><b>Abraham Ayala</b></a></td><td>19.5014</td><td>2000</td><td>Rk</td><td>0.446166</td><td>.069</td><td>.308</td><td>.305</td><td>6.9</td><td>5.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=rodrig001jes#standard_batting::none"><b>Jesus Rodriguez</b></a></td><td>19.4329</td><td>2004</td><td>Rk</td><td>0.490038</td><td>.030</td><td>.254</td><td>.280</td><td>5.1</td><td>11.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=daly--002rob#standard_batting::none"><b>Bob Daly</b></a></td><td>19.4932</td><td>1992</td><td>Rk</td><td>0.492768</td><td>.066</td><td>.288</td><td>.286</td><td>6.1</td><td>6.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=aquino001die#standard_batting::none"><b>Diego Aquino</b></a></td><td>19.3973</td><td>1984</td><td>Rk</td><td>0.493652</td><td>.073</td><td>.291</td><td>.312</td><td>4.3</td><td>10.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=luther001bra#standard_batting::none"><b>Brad Luther</b></a></td><td>19.4822</td><td>1981</td><td>Rk</td><td>0.498684</td><td>.044</td><td>.257</td><td>.267</td><td>6.9</td><td>9.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=stela-001jos#standard_batting::none"><b>Jose Stela</b></a></td><td>19.4521</td><td>1989</td><td>Rk</td><td>0.508292</td><td>.051</td><td>.291</td><td>.323</td><td>3.6</td><td>8.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cabrer001orl#standard_batting::none"><b>Orlando Cabrera</b></a></td><td>19.4247</td><td>1994</td><td>Rk</td><td>0.512218</td><td>.082</td><td>.333</td><td>.353</td><td>6.3</td><td>10.1</td><td>19.56</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mendoz002jes#standard_batting::none"><b>Jesus Mendoza</b></a></td><td>19.4027</td><td>1994</td><td>Rk</td><td>0.514724</td><td>.046</td><td>.261</td><td>.275</td><td>4.3</td><td>8.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=isaac-001ric#standard_batting::none"><b>Richard Isaac</b></a></td><td>19.5781</td><td>1987</td><td>Rk</td><td>0.530385</td><td>.057</td><td>.308</td><td>.322</td><td>7.8</td><td>11.3</td><td>0.00</td></tr>
+</table></br>
+</body></table>

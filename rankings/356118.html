@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Mike Gretler, (A- NYPL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Mike Gretler, 2018 (A- / NYPL)</h2></b><br>
+            <b>NYPL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=BABIP&group=league', 'Age/BABIP NYPL League Graph', 'This graph shows Mike Gretler in relation to all other players in the NYPL.    The graph shows BABIP according to age, decreasing towards the youngest players in NYPL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=bbrate&group=league', 'Age/BB% NYPL League Graph', 'This graph shows Mike Gretler in relation to all other players in the NYPL.    The graph shows BB% according to age, decreasing towards the youngest players in NYPL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=ISOP&group=league', 'Age/ISO NYPL League Graph', 'This graph shows Mike Gretler in relation to all other players in the NYPL.    The graph shows ISO according to age, decreasing towards the youngest players in NYPL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=krate&group=league', 'Age/K% NYPL League Graph', 'This graph shows Mike Gretler in relation to all other players in the NYPL.    The graph shows K% according to age, decreasing towards the youngest players in NYPL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=WOBA&group=league', 'Age/wOBA NYPL League Graph', 'This graph shows Mike Gretler in relation to all other players in the NYPL.    The graph shows wOBA according to age, decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A- Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=BABIP&group=level', 'Age/BABIP A- Level Graph', 'This graph shows Mike Gretler in relation to all other players at A-.    The graph shows BABIP according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=bbrate&group=level', 'Age/BB% A- Level Graph', 'This graph shows Mike Gretler in relation to all other players at A-.    The graph shows BB% according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=ISOP&group=level', 'Age/ISO A- Level Graph', 'This graph shows Mike Gretler in relation to all other players at A-.    The graph shows ISO according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=krate&group=level', 'Age/K% A- Level Graph', 'This graph shows Mike Gretler in relation to all other players at A-.    The graph shows K% according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=WOBA&group=level'), 'Age/wOBA A- Level Graph', 'This graph shows Mike Gretler in relation to all other players at A-.    The graph shows wOBA according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=356118&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Mike Gretler in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=356118&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Mike Gretler in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=356118&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Mike Gretler in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=356118&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Mike Gretler in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=356118&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Mike Gretler in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A-.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=356118&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Mike Gretler's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=356118&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Mike Gretler's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2018</td><td>22.263</td><td>A-</td><td>.121</td><td>.344</td><td>.321</td><td>19.8</td><td>10.4</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Mike Gretler in relation to all other players at A-.    The graph shows BABIP according to age (decreasing towards the youngest players in A-).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=356118&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Mike Gretler, 2018 (A- NYPL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gretle000mik#standard_batting::none"><b>Mike Gretler</b></a></td><td>22.263</td><td>2018</td><td>A-</td><td>0.0</td><td>.121</td><td>.321</td><td>.344</td><td>10.4</td><td>19.8</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=monter001arm#standard_batting::none"><b>Armando Montero</b></a></td><td>22.3041</td><td>1985</td><td>A-</td><td>0.287136</td><td>.111</td><td>.315</td><td>.345</td><td>9.5</td><td>21.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=celli-001mic#standard_batting::none"><b>Mick Celli#</b></a></td><td>22.211</td><td>1999</td><td>A-</td><td>0.394228</td><td>.097</td><td>.315</td><td>.333</td><td>11.0</td><td>19.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jackso001wad#standard_batting::none"><b>Wade Jackson</b></a></td><td>22.1973</td><td>1996</td><td>A-</td><td>0.42689</td><td>.128</td><td>.338</td><td>.333</td><td>12.2</td><td>18.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=almont001san#standard_batting::none"><b>Sandy Almonte#</b></a></td><td>22.3808</td><td>2005</td><td>A-</td><td>0.455024</td><td>.113</td><td>.335</td><td>.369</td><td>10.4</td><td>20.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hulse-001jef#standard_batting::none"><b>Jeff Hulse</b></a></td><td>22.1589</td><td>1988</td><td>A-</td><td>0.459541</td><td>.122</td><td>.313</td><td>.326</td><td>9.4</td><td>22.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moore-001tri#standard_batting::none"><b>Tris Moore</b></a></td><td>22.2247</td><td>1996</td><td>A-</td><td>0.468646</td><td>.104</td><td>.309</td><td>.315</td><td>9.1</td><td>18.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=side--001rob#standard_batting::none"><b>Joey Side</b></a></td><td>22.3397</td><td>2006</td><td>A-</td><td>0.469836</td><td>.110</td><td>.298</td><td>.331</td><td>8.3</td><td>19.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=weems-001cha#standard_batting::none"><b>Rick Weems</b></a></td><td>22.3205</td><td>1981</td><td>A-</td><td>0.478204</td><td>.101</td><td>.311</td><td>.329</td><td>8.4</td><td>21.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=leaman001jef#standard_batting::none"><b>Jeff Leaman</b></a></td><td>22.2658</td><td>1995</td><td>A-</td><td>0.479574</td><td>.109</td><td>.306</td><td>.335</td><td>8.2</td><td>22.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=raven-001lui#standard_batting::none"><b>Luis Raven</b></a></td><td>22.3781</td><td>1991</td><td>A-</td><td>0.490866</td><td>.095</td><td>.318</td><td>.333</td><td>9.6</td><td>20.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=stratt002joh#standard_batting::none"><b>John Stratton*</b></a></td><td>22.2384</td><td>1993</td><td>A-</td><td>0.495089</td><td>.127</td><td>.295</td><td>.315</td><td>8.6</td><td>22.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=scram-001dei#standard_batting::none"><b>Deik Scram*</b></a></td><td>22.1781</td><td>2006</td><td>A-</td><td>0.511832</td><td>.127</td><td>.326</td><td>.369</td><td>9.6</td><td>23.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=maxwel001jus#standard_batting::none"><b>Justin Maxwell</b></a></td><td>22.4164</td><td>2006</td><td>A-</td><td>0.519414</td><td>.107</td><td>.310</td><td>.331</td><td>8.8</td><td>19.9</td><td>2.85</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=durazo001ern#standard_batting::none"><b>Ernie Durazo*</b></a></td><td>22.3342</td><td>2001</td><td>A-</td><td>0.522555</td><td>.105</td><td>.310</td><td>.342</td><td>7.9</td><td>20.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jensen001dav#standard_batting::none"><b>Dave Jensen*</b></a></td><td>22.3068</td><td>2002</td><td>A-</td><td>0.528404</td><td>.086</td><td>.293</td><td>.323</td><td>9.6</td><td>20.2</td><td>0.00</td></tr>
+</table></br>
+</body></table>

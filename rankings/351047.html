@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Gunnar Heidt, (AAA IL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Gunnar Heidt, 2018 (AAA / IL)</h2></b><br>
+            <b>IL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=BABIP&group=league', 'Age/BABIP IL League Graph', 'This graph shows Gunnar Heidt in relation to all other players in the IL.    The graph shows BABIP according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=bbrate&group=league', 'Age/BB% IL League Graph', 'This graph shows Gunnar Heidt in relation to all other players in the IL.    The graph shows BB% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=ISOP&group=league', 'Age/ISO IL League Graph', 'This graph shows Gunnar Heidt in relation to all other players in the IL.    The graph shows ISO according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=krate&group=league', 'Age/K% IL League Graph', 'This graph shows Gunnar Heidt in relation to all other players in the IL.    The graph shows K% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=WOBA&group=league', 'Age/wOBA IL League Graph', 'This graph shows Gunnar Heidt in relation to all other players in the IL.    The graph shows wOBA according to age, decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>AAA Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=BABIP&group=level', 'Age/BABIP AAA Level Graph', 'This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=bbrate&group=level', 'Age/BB% AAA Level Graph', 'This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=ISOP&group=level', 'Age/ISO AAA Level Graph', 'This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=krate&group=level', 'Age/K% AAA Level Graph', 'This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=WOBA&group=level'), 'Age/wOBA AAA Level Graph', 'This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351047&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Gunnar Heidt in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351047&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Gunnar Heidt in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351047&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Gunnar Heidt in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351047&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Gunnar Heidt in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351047&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Gunnar Heidt in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351047&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Gunnar Heidt's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351047&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Gunnar Heidt's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2014</td><td>21.5644</td><td>Rk</td><td>.136</td><td>.375</td><td>.342</td><td>24.0</td><td>12.0</td></tr>
+</tr>
+<tr>
+<td>2014</td><td>21.5644</td><td>A-</td><td>.166</td><td>.318</td><td>.318</td><td>18.3</td><td>7.5</td></tr>
+</tr>
+<tr>
+<td>2015</td><td>22.5644</td><td>A-</td><td>.079</td><td>.281</td><td>.270</td><td>19.3</td><td>8.6</td></tr>
+</tr>
+<tr>
+<td>2016</td><td>23.5671</td><td>A</td><td>.156</td><td>.348</td><td>.325</td><td>23.2</td><td>9.1</td></tr>
+</tr>
+<tr>
+<td>2016</td><td>23.5671</td><td>A+</td><td>.155</td><td>.310</td><td>.321</td><td>21.8</td><td>10.2</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>24.5671</td><td>AA</td><td>.141</td><td>.302</td><td>.294</td><td>28.5</td><td>9.3</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>25.5671</td><td>AA</td><td>.112</td><td>.294</td><td>.277</td><td>23.8</td><td>8.4</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>25.5671</td><td>AAA</td><td>.174</td><td>.470</td><td>.357</td><td>38.6</td><td>10.0</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Gunnar Heidt in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351047&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Gunnar Heidt, 2018 (AAA IL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=heidt-000gun#standard_batting::none"><b>Gunnar Heidt</b></a></td><td>25.5671</td><td>2018</td><td>AAA</td><td>0.0</td><td>.174</td><td>.357</td><td>.470</td><td>10.0</td><td>38.6</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=carver002ste#standard_batting::none"><b>Steve Carver*</b></a></td><td>25.526</td><td>1998</td><td>AAA</td><td>0.620915</td><td>.217</td><td>.378</td><td>.500</td><td>8.0</td><td>40.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=probst001ala#standard_batting::none"><b>Alan Probst</b></a></td><td>25.4548</td><td>1996</td><td>AAA</td><td>0.687658</td><td>.142</td><td>.357</td><td>.500</td><td>12.5</td><td>37.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moreta001jua#standard_batting::none"><b>Ramon Moreta</b></a></td><td>25.589</td><td>2001</td><td>AAA</td><td>0.900178</td><td>.115</td><td>.256</td><td>.350</td><td>7.5</td><td>38.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moore-002kel#standard_batting::none"><b>Kelvin Moore</b></a></td><td>25.5288</td><td>1983</td><td>AAA</td><td>0.93266</td><td>.196</td><td>.364</td><td>.386</td><td>12.1</td><td>30.7</td><td>-0.46</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=shelto002ben#standard_batting::none"><b>Ben Shelton</b></a></td><td>25.5425</td><td>1995</td><td>AAA</td><td>0.971769</td><td>.181</td><td>.347</td><td>.437</td><td>15.4</td><td>41.0</td><td>-0.10</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=green-001cha#standard_batting::none"><b>Chad Green#</b></a></td><td>25.7781</td><td>2001</td><td>AAA</td><td>0.990939</td><td>.179</td><td>.317</td><td>.351</td><td>11.8</td><td>36.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=betten001ran#standard_batting::none"><b>Randy Betten</b></a></td><td>25.6959</td><td>1997</td><td>AAA</td><td>1.07814</td><td>.114</td><td>.320</td><td>.410</td><td>9.9</td><td>29.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=socarr001ant#standard_batting::none"><b>Tony Socarras*</b></a></td><td>25.4137</td><td>2004</td><td>AAA</td><td>1.08384</td><td>.181</td><td>.312</td><td>.416</td><td>4.2</td><td>41.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=reyes-001ant#standard_batting::none"><b>Anthony Reyes</b></a></td><td>25.474</td><td>2007</td><td>AAA</td><td>1.1665</td><td>.090</td><td>.238</td><td>.400</td><td>8.3</td><td>50.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=chambl001jam#standard_batting::none"><b>Jim Chamblee</b></a></td><td>25.9233</td><td>2001</td><td>AAA</td><td>1.18128</td><td>.142</td><td>.310</td><td>.380</td><td>9.8</td><td>31.7</td><td>-0.05</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gaetti001jos#standard_batting::none"><b>Joe Gaetti</b></a></td><td>25.4685</td><td>2007</td><td>AAA</td><td>1.1895</td><td>.233</td><td>.350</td><td>.374</td><td>8.4</td><td>32.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=grable001rob#standard_batting::none"><b>Rob Grable</b></a></td><td>25.211</td><td>1995</td><td>AAA</td><td>1.21003</td><td>.156</td><td>.289</td><td>.347</td><td>7.6</td><td>37.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=qualls001cha#standard_batting::none"><b>Chad Qualls</b></a></td><td>25.6411</td><td>2004</td><td>AAA</td><td>1.21576</td><td>.100</td><td>.245</td><td>.500</td><td>4.2</td><td>41.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=choo--001shi#standard_batting::none"><b>Shin-Soo Choo*</b></a></td><td>25.737</td><td>2008</td><td>AAA</td><td>1.22363</td><td>.119</td><td>.310</td><td>.370</td><td>10.2</td><td>28.6</td><td>29.22</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hayden001dav#standard_batting::none"><b>Dave Hayden</b></a></td><td>25.3479</td><td>1995</td><td>AAA</td><td>1.2276</td><td>.170</td><td>.373</td><td>.384</td><td>12.8</td><td>27.7</td><td>0.00</td></tr>
+</table></br>
+</body></table>

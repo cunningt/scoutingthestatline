@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Niko Decolati, (Rk PION)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Niko Decolati, 2018 (Rk / PION)</h2></b><br>
+            <b>PION League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=BABIP&group=league', 'Age/BABIP PION League Graph', 'This graph shows Niko Decolati in relation to all other players in the PION.    The graph shows BABIP according to age, decreasing towards the youngest players in PION.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=bbrate&group=league', 'Age/BB% PION League Graph', 'This graph shows Niko Decolati in relation to all other players in the PION.    The graph shows BB% according to age, decreasing towards the youngest players in PION.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=ISOP&group=league', 'Age/ISO PION League Graph', 'This graph shows Niko Decolati in relation to all other players in the PION.    The graph shows ISO according to age, decreasing towards the youngest players in PION.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=krate&group=league', 'Age/K% PION League Graph', 'This graph shows Niko Decolati in relation to all other players in the PION.    The graph shows K% according to age, decreasing towards the youngest players in PION.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=WOBA&group=league', 'Age/wOBA PION League Graph', 'This graph shows Niko Decolati in relation to all other players in the PION.    The graph shows wOBA according to age, decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Rk Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=BABIP&group=level', 'Age/BABIP Rk Level Graph', 'This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=bbrate&group=level', 'Age/BB% Rk Level Graph', 'This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=ISOP&group=level', 'Age/ISO Rk Level Graph', 'This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=krate&group=level', 'Age/K% Rk Level Graph', 'This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=WOBA&group=level'), 'Age/wOBA Rk Level Graph', 'This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352619&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Niko Decolati in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352619&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Niko Decolati in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352619&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Niko Decolati in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352619&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Niko Decolati in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352619&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Niko Decolati in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352619&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Niko Decolati's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352619&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Niko Decolati's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2018</td><td>20.6493</td><td>Rk</td><td>.205</td><td>.380</td><td>.396</td><td>18.4</td><td>11.2</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Niko Decolati in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352619&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Niko Decolati, 2018 (Rk PION)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=decola000nik#standard_batting::none"><b>Niko Decolati</b></a></td><td>20.6493</td><td>2018</td><td>Rk</td><td>0.0</td><td>.205</td><td>.396</td><td>.380</td><td>11.2</td><td>18.4</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=miller003ant#standard_batting::none"><b>Tony Miller</b></a></td><td>20.6329</td><td>2001</td><td>Rk</td><td>0.401226</td><td>.197</td><td>.384</td><td>.361</td><td>13.0</td><td>19.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hunt--001ste#standard_batting::none"><b>Stephen Hunt*</b></a></td><td>20.5863</td><td>2002</td><td>Rk</td><td>0.404984</td><td>.188</td><td>.360</td><td>.352</td><td>10.7</td><td>21.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=burke-001mic#standard_batting::none"><b>Mike Burke*</b></a></td><td>20.5479</td><td>1985</td><td>Rk</td><td>0.472427</td><td>.192</td><td>.407</td><td>.381</td><td>12.8</td><td>15.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=romero001dei#standard_batting::none"><b>Deibinson Romero</b></a></td><td>20.5315</td><td>2007</td><td>Rk</td><td>0.48073</td><td>.190</td><td>.378</td><td>.352</td><td>11.6</td><td>16.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hernan001edd#standard_batting::none"><b>Eddy Hernandez*</b></a></td><td>20.6712</td><td>2005</td><td>Rk</td><td>0.483623</td><td>.195</td><td>.422</td><td>.421</td><td>10.3</td><td>19.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=morel-001alv#standard_batting::none"><b>Alvi Morel*</b></a></td><td>20.6055</td><td>2005</td><td>Rk</td><td>0.500137</td><td>.183</td><td>.377</td><td>.397</td><td>10.1</td><td>21.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=figuer001bau#standard_batting::none"><b>Baudilio Figueroa</b></a></td><td>20.7753</td><td>2004</td><td>Rk</td><td>0.536654</td><td>.192</td><td>.375</td><td>.341</td><td>10.2</td><td>16.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mooney001mic#standard_batting::none"><b>Mike Mooney</b></a></td><td>20.8301</td><td>2004</td><td>Rk</td><td>0.54206</td><td>.200</td><td>.365</td><td>.358</td><td>9.8</td><td>17.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=chapma002ste#standard_batting::none"><b>Stephen Chapman*</b></a></td><td>20.4822</td><td>2006</td><td>Rk</td><td>0.547795</td><td>.188</td><td>.361</td><td>.377</td><td>9.1</td><td>19.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=barker001kev#standard_batting::none"><b>Kevin Barker*</b></a></td><td>20.6986</td><td>1996</td><td>Rk</td><td>0.548112</td><td>.192</td><td>.393</td><td>.358</td><td>13.7</td><td>16.1</td><td>-0.26</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=barnes001kel#standard_batting::none"><b>Kelvin Barnes</b></a></td><td>20.5863</td><td>1995</td><td>Rk</td><td>0.577569</td><td>.214</td><td>.373</td><td>.330</td><td>12.3</td><td>19.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=chirin001ger#standard_batting::none"><b>Germain Chirinos</b></a></td><td>20.6027</td><td>1999</td><td>Rk</td><td>0.582952</td><td>.185</td><td>.354</td><td>.326</td><td>12.2</td><td>20.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=laroch001dav#standard_batting::none"><b>Adam LaRoche*</b></a></td><td>20.4164</td><td>2000</td><td>Rk</td><td>0.596711</td><td>.199</td><td>.374</td><td>.361</td><td>10.3</td><td>19.8</td><td>11.72</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bartle001bre#standard_batting::none"><b>Brett Bartles</b></a></td><td>20.6274</td><td>2007</td><td>Rk</td><td>0.598184</td><td>.214</td><td>.377</td><td>.377</td><td>8.2</td><td>21.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=delgad001chr#standard_batting::none"><b>Chris Delgado</b></a></td><td>20.4932</td><td>1998</td><td>Rk</td><td>0.598523</td><td>.209</td><td>.392</td><td>.361</td><td>13.3</td><td>20.0</td><td>0.00</td></tr>
+</table></br>
+</body></table>

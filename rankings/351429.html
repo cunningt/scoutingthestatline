@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Moises Gomez, (A MIDW)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Moises Gomez, 2018 (A / MIDW)</h2></b><br>
+            <b>MIDW League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=BABIP&group=league', 'Age/BABIP MIDW League Graph', 'This graph shows Moises Gomez in relation to all other players in the MIDW.    The graph shows BABIP according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=bbrate&group=league', 'Age/BB% MIDW League Graph', 'This graph shows Moises Gomez in relation to all other players in the MIDW.    The graph shows BB% according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=ISOP&group=league', 'Age/ISO MIDW League Graph', 'This graph shows Moises Gomez in relation to all other players in the MIDW.    The graph shows ISO according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=krate&group=league', 'Age/K% MIDW League Graph', 'This graph shows Moises Gomez in relation to all other players in the MIDW.    The graph shows K% according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=WOBA&group=league', 'Age/wOBA MIDW League Graph', 'This graph shows Moises Gomez in relation to all other players in the MIDW.    The graph shows wOBA according to age, decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=BABIP&group=level', 'Age/BABIP A Level Graph', 'This graph shows Moises Gomez in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=bbrate&group=level', 'Age/BB% A Level Graph', 'This graph shows Moises Gomez in relation to all other players at A.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=ISOP&group=level', 'Age/ISO A Level Graph', 'This graph shows Moises Gomez in relation to all other players at A.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=krate&group=level', 'Age/K% A Level Graph', 'This graph shows Moises Gomez in relation to all other players at A.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=WOBA&group=level'), 'Age/wOBA A Level Graph', 'This graph shows Moises Gomez in relation to all other players at A.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351429&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Moises Gomez in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351429&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Moises Gomez in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351429&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Moises Gomez in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351429&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Moises Gomez in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351429&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Moises Gomez in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351429&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Moises Gomez's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351429&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Moises Gomez's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2016</td><td>17.6082</td><td>Rk</td><td>.107</td><td>.272</td><td>.262</td><td>20.2</td><td>6.6</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>18.6082</td><td>Rk</td><td>.123</td><td>.341</td><td>.308</td><td>22.7</td><td>5.7</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>19.6082</td><td>A</td><td>.222</td><td>.349</td><td>.347</td><td>26.6</td><td>6.6</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Moises Gomez in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351429&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Moises Gomez, 2018 (A MIDW)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gomez-003moi#standard_batting::none"><b>Moises Gomez</b></a></td><td>19.6082</td><td>2018</td><td>A</td><td>0.0</td><td>.222</td><td>.347</td><td>.349</td><td>6.6</td><td>26.6</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lomasn001ste#standard_batting::none"><b>Steve Lomasney</b></a></td><td>19.6027</td><td>1997</td><td>A</td><td>0.476828</td><td>.212</td><td>.342</td><td>.354</td><td>8.6</td><td>26.4</td><td>0.05</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cotten001jer#standard_batting::none"><b>Jeremy Cotten</b></a></td><td>19.5315</td><td>2000</td><td>A</td><td>0.5263</td><td>.223</td><td>.363</td><td>.349</td><td>8.6</td><td>23.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ramire001jul#standard_batting::none"><b>Julio Ramirez</b></a></td><td>19.6548</td><td>1997</td><td>A</td><td>0.638161</td><td>.196</td><td>.319</td><td>.338</td><td>8.5</td><td>28.1</td><td>-0.79</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gac---001ian#standard_batting::none"><b>Ian Gac</b></a></td><td>19.6548</td><td>2005</td><td>A</td><td>0.640723</td><td>.190</td><td>.299</td><td>.312</td><td>5.1</td><td>29.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kemp--001mat#standard_batting::none"><b>Matt Kemp</b></a></td><td>19.5342</td><td>2004</td><td>A</td><td>0.641967</td><td>.210</td><td>.344</td><td>.337</td><td>5.2</td><td>21.8</td><td>20.49</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=willia001gle#standard_batting::none"><b>Glenn Williams#</b></a></td><td>19.7178</td><td>1997</td><td>A</td><td>0.64504</td><td>.215</td><td>.333</td><td>.357</td><td>7.3</td><td>31.7</td><td>0.07</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bell--002kev#standard_batting::none"><b>Kevin Bell</b></a></td><td>19.7315</td><td>1975</td><td>A</td><td>0.658383</td><td>.200</td><td>.354</td><td>.359</td><td>8.3</td><td>25.0</td><td>0.23</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=fermai001cha#standard_batting::none"><b>Charlie Fermaint</b></a></td><td>19.4849</td><td>2005</td><td>A</td><td>0.70676</td><td>.194</td><td>.311</td><td>.328</td><td>6.5</td><td>31.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jones-015jam#standard_batting::none"><b>Jaime Jones*</b></a></td><td>19.6767</td><td>1996</td><td>A</td><td>0.720501</td><td>.181</td><td>.312</td><td>.318</td><td>7.3</td><td>28.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=balent001wla#standard_batting::none"><b>Wladimir Balentien</b></a></td><td>19.7616</td><td>2004</td><td>A</td><td>0.7248</td><td>.242</td><td>.341</td><td>.337</td><td>4.3</td><td>27.6</td><td>0.51</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pittma001tho#standard_batting::none"><b>Tom Pittman</b></a></td><td>19.4247</td><td>1999</td><td>A</td><td>0.732229</td><td>.194</td><td>.331</td><td>.354</td><td>4.6</td><td>26.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=franci003jua#standard_batting::none"><b>Juan Francisco*</b></a></td><td>19.7836</td><td>2007</td><td>A</td><td>0.759753</td><td>.194</td><td>.322</td><td>.337</td><td>4.1</td><td>28.6</td><td>0.76</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=welch-001ste#standard_batting::none"><b>Stefan Welch*</b></a></td><td>19.6493</td><td>2008</td><td>A</td><td>0.805102</td><td>.210</td><td>.333</td><td>.307</td><td>9.1</td><td>22.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=snider001van#standard_batting::none"><b>Van Snider*</b></a></td><td>19.6521</td><td>1983</td><td>A</td><td>0.863331</td><td>.192</td><td>.360</td><td>.343</td><td>8.7</td><td>21.5</td><td>-0.11</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=karkov001ron#standard_batting::none"><b>Ron Karkovice</b></a></td><td>19.6603</td><td>1983</td><td>A</td><td>0.889604</td><td>.190</td><td>.311</td><td>.288</td><td>8.5</td><td>24.6</td><td>14.96</td></tr>
+</table></br>
+</body></table>

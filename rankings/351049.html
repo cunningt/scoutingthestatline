@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Danny Jansen, (AAA IL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Danny Jansen, 2018 (AAA / IL)</h2></b><br>
+            <b>IL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=BABIP&group=league', 'Age/BABIP IL League Graph', 'This graph shows Danny Jansen in relation to all other players in the IL.    The graph shows BABIP according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=bbrate&group=league', 'Age/BB% IL League Graph', 'This graph shows Danny Jansen in relation to all other players in the IL.    The graph shows BB% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=ISOP&group=league', 'Age/ISO IL League Graph', 'This graph shows Danny Jansen in relation to all other players in the IL.    The graph shows ISO according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=krate&group=league', 'Age/K% IL League Graph', 'This graph shows Danny Jansen in relation to all other players in the IL.    The graph shows K% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=WOBA&group=league', 'Age/wOBA IL League Graph', 'This graph shows Danny Jansen in relation to all other players in the IL.    The graph shows wOBA according to age, decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>AAA Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=BABIP&group=level', 'Age/BABIP AAA Level Graph', 'This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=bbrate&group=level', 'Age/BB% AAA Level Graph', 'This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=ISOP&group=level', 'Age/ISO AAA Level Graph', 'This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=krate&group=level', 'Age/K% AAA Level Graph', 'This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=WOBA&group=level'), 'Age/wOBA AAA Level Graph', 'This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351049&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Danny Jansen in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351049&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Danny Jansen in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351049&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Danny Jansen in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351049&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Danny Jansen in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351049&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Danny Jansen in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351049&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Danny Jansen's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351049&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Danny Jansen's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2013</td><td>17.9753</td><td>Rk</td><td>.035</td><td>.261</td><td>.297</td><td>7.1</td><td>15.0</td></tr>
+</tr>
+<tr>
+<td>2014</td><td>18.9753</td><td>Rk</td><td>.201</td><td>.294</td><td>.353</td><td>11.6</td><td>11.0</td></tr>
+</tr>
+<tr>
+<td>2016</td><td>20.9781</td><td>A+</td><td>.053</td><td>.268</td><td>.258</td><td>18.4</td><td>10.1</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>21.9781</td><td>A+</td><td>.172</td><td>.384</td><td>.393</td><td>10.3</td><td>5.9</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>21.9781</td><td>AA</td><td>.128</td><td>.310</td><td>.335</td><td>9.0</td><td>10.5</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>21.9781</td><td>AAA</td><td>.223</td><td>.333</td><td>.421</td><td>9.0</td><td>14.1</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>22.9781</td><td>AAA</td><td>.197</td><td>.291</td><td>.349</td><td>13.6</td><td>12.2</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Danny Jansen in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351049&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Danny Jansen, 2018 (AAA IL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jansen000dan#standard_batting::none"><b>Danny Jansen</b></a></td><td>22.9781</td><td>2018</td><td>AAA</td><td>0.0</td><td>.197</td><td>.349</td><td>.291</td><td>12.2</td><td>13.6</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=nixon-001chr#standard_batting::none"><b>Trot Nixon*</b></a></td><td>22.989</td><td>1997</td><td>AAA</td><td>0.304246</td><td>.176</td><td>.324</td><td>.257</td><td>11.4</td><td>15.6</td><td>22.35</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=justic001dav#standard_batting::none"><b>David Justice*</b></a></td><td>22.9808</td><td>1989</td><td>AAA</td><td>0.357278</td><td>.168</td><td>.343</td><td>.284</td><td>12.9</td><td>14.4</td><td>30.21</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=sardin001bro#standard_batting::none"><b>Bronson Sardinha*</b></a></td><td>23.0027</td><td>2006</td><td>AAA</td><td>0.433358</td><td>.205</td><td>.366</td><td>.324</td><td>10.9</td><td>17.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=petric001ben#standard_batting::none"><b>Ben Petrick</b></a></td><td>23</td><td>2000</td><td>AAA</td><td>0.445056</td><td>.221</td><td>.397</td><td>.343</td><td>11.3</td><td>14.2</td><td>0.48</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mcclai001sco#standard_batting::none"><b>Scott McClain</b></a></td><td>22.8822</td><td>1995</td><td>AAA</td><td>0.446923</td><td>.175</td><td>.326</td><td>.264</td><td>10.2</td><td>15.0</td><td>-0.31</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=elliot001law#standard_batting::none"><b>Larry Elliot*</b></a></td><td>23.0904</td><td>1961</td><td>AAA</td><td>0.521174</td><td>.184</td><td>.332</td><td>.286</td><td>10.2</td><td>17.6</td><td>0.98</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bellia001ron#standard_batting::none"><b>Ronnie Belliard</b></a></td><td>23</td><td>1998</td><td>AAA</td><td>0.52226</td><td>.181</td><td>.386</td><td>.354</td><td>11.7</td><td>13.1</td><td>18.51</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=coles-001dar#standard_batting::none"><b>Darnell Coles</b></a></td><td>22.8466</td><td>1985</td><td>AAA</td><td>0.586349</td><td>.206</td><td>.398</td><td>.341</td><td>14.4</td><td>12.7</td><td>-1.17</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=davis-005mar#standard_batting::none"><b>Ben Davis#</b></a></td><td>23.0767</td><td>2000</td><td>AAA</td><td>0.6177</td><td>.176</td><td>.356</td><td>.298</td><td>14.6</td><td>16.5</td><td>2.92</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=wedge-001eri#standard_batting::none"><b>Eric Wedge</b></a></td><td>23.1918</td><td>1991</td><td>AAA</td><td>0.617775</td><td>.190</td><td>.320</td><td>.240</td><td>12.8</td><td>13.3</td><td>0.20</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=reid--002jes#standard_batting::none"><b>Jessie Reid*</b></a></td><td>22.8493</td><td>1985</td><td>AAA</td><td>0.626704</td><td>.184</td><td>.333</td><td>.281</td><td>9.0</td><td>16.0</td><td>0.03</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=crede-001jos#standard_batting::none"><b>Joe Crede</b></a></td><td>22.9479</td><td>2001</td><td>AAA</td><td>0.633121</td><td>.187</td><td>.343</td><td>.307</td><td>8.8</td><td>16.9</td><td>14.69</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kruk--001joh#standard_batting::none"><b>John Kruk*</b></a></td><td>23.1562</td><td>1984</td><td>AAA</td><td>0.640221</td><td>.205</td><td>.398</td><td>.337</td><td>11.5</td><td>9.4</td><td>23.35</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=naehri001tim#standard_batting::none"><b>Tim Naehring</b></a></td><td>23.1781</td><td>1990</td><td>AAA</td><td>0.641292</td><td>.217</td><td>.354</td><td>.283</td><td>11.0</td><td>16.7</td><td>12.70</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=davis-003gle#standard_batting::none"><b>Glenn Davis</b></a></td><td>23.0274</td><td>1984</td><td>AAA</td><td>0.649858</td><td>.191</td><td>.359</td><td>.329</td><td>9.2</td><td>16.4</td><td>19.54</td></tr>
+</table></br>
+</body></table>

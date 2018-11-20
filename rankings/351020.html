@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Lazaro Armenteros, (A MIDW)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Lazaro Armenteros, 2018 (A / MIDW)</h2></b><br>
+            <b>MIDW League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=BABIP&group=league', 'Age/BABIP MIDW League Graph', 'This graph shows Lazaro Armenteros in relation to all other players in the MIDW.    The graph shows BABIP according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=bbrate&group=league', 'Age/BB% MIDW League Graph', 'This graph shows Lazaro Armenteros in relation to all other players in the MIDW.    The graph shows BB% according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=ISOP&group=league', 'Age/ISO MIDW League Graph', 'This graph shows Lazaro Armenteros in relation to all other players in the MIDW.    The graph shows ISO according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=krate&group=league', 'Age/K% MIDW League Graph', 'This graph shows Lazaro Armenteros in relation to all other players in the MIDW.    The graph shows K% according to age, decreasing towards the youngest players in MIDW.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=WOBA&group=league', 'Age/wOBA MIDW League Graph', 'This graph shows Lazaro Armenteros in relation to all other players in the MIDW.    The graph shows wOBA according to age, decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=BABIP&group=level', 'Age/BABIP A Level Graph', 'This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=bbrate&group=level', 'Age/BB% A Level Graph', 'This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=ISOP&group=level', 'Age/ISO A Level Graph', 'This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=krate&group=level', 'Age/K% A Level Graph', 'This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=WOBA&group=level'), 'Age/wOBA A Level Graph', 'This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351020&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Lazaro Armenteros in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351020&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Lazaro Armenteros in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351020&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Lazaro Armenteros in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351020&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Lazaro Armenteros in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351020&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Lazaro Armenteros in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351020&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Lazaro Armenteros's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351020&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Lazaro Armenteros's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2017</td><td>17.874</td><td>Rk</td><td>.216</td><td>.403</td><td>.361</td><td>25.8</td><td>9.3</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>18.874</td><td>A</td><td>.123</td><td>.426</td><td>.327</td><td>33.8</td><td>10.6</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Lazaro Armenteros in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351020&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Lazaro Armenteros, 2018 (A MIDW)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=arment000laz#standard_batting::none"><b>Lazaro Armenteros</b></a></td><td>18.874</td><td>2018</td><td>A</td><td>0.0</td><td>.123</td><td>.327</td><td>.426</td><td>10.6</td><td>33.8</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=dukes-001eli#standard_batting::none"><b>Elijah Dukes</b></a></td><td>18.7753</td><td>2003</td><td>A</td><td>0.977783</td><td>.120</td><td>.298</td><td>.349</td><td>10.1</td><td>29.2</td><td>1.91</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=edmond001jam#standard_batting::none"><b>Jim Edmonds*</b></a></td><td>18.7753</td><td>1989</td><td>A</td><td>1.01996</td><td>.076</td><td>.293</td><td>.403</td><td>7.1</td><td>34.3</td><td>39.22</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=maybin001cam#standard_batting::none"><b>Cameron Maybin</b></a></td><td>19.0055</td><td>2006</td><td>A</td><td>1.03805</td><td>.153</td><td>.362</td><td>.407</td><td>11.2</td><td>26.1</td><td>13.07</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lopez-001fel#standard_batting::none"><b>Felipe Lopez#</b></a></td><td>18.8986</td><td>1999</td><td>A</td><td>1.17662</td><td>.143</td><td>.336</td><td>.362</td><td>10.0</td><td>25.9</td><td>7.49</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ahrens001kev#standard_batting::none"><b>Kevin Ahrens</b></a></td><td>18.9452</td><td>2008</td><td>A</td><td>1.19169</td><td>.108</td><td>.304</td><td>.351</td><td>8.8</td><td>26.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moyer-001kyl#standard_batting::none"><b>Kyle Moyer*</b></a></td><td>19.1726</td><td>2000</td><td>A</td><td>1.20205</td><td>.073</td><td>.290</td><td>.376</td><td>9.5</td><td>33.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=roliso001nat#standard_batting::none"><b>Nate Rolison*</b></a></td><td>19.0274</td><td>1996</td><td>A</td><td>1.20938</td><td>.151</td><td>.320</td><td>.348</td><td>12.0</td><td>31.0</td><td>-0.25</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=tablad001rau#standard_batting::none"><b>Raul Tablado</b></a></td><td>19.0932</td><td>2001</td><td>A</td><td>1.23334</td><td>.139</td><td>.312</td><td>.349</td><td>10.1</td><td>28.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=kent--001wes#standard_batting::none"><b>Wes Kent</b></a></td><td>18.8384</td><td>1981</td><td>A</td><td>1.24727</td><td>.102</td><td>.260</td><td>.320</td><td>7.7</td><td>35.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pettis001sta#standard_batting::none"><b>Stacey Pettis*</b></a></td><td>19.011</td><td>1982</td><td>A</td><td>1.28399</td><td>.074</td><td>.246</td><td>.350</td><td>7.4</td><td>38.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=harris001est#standard_batting::none"><b>Estee Harris*</b></a></td><td>19.2411</td><td>2004</td><td>A</td><td>1.31767</td><td>.109</td><td>.269</td><td>.348</td><td>9.5</td><td>37.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=walker001vas#standard_batting::none"><b>Shon Walker*</b></a></td><td>18.8247</td><td>1993</td><td>A</td><td>1.32018</td><td>.088</td><td>.252</td><td>.314</td><td>7.6</td><td>34.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=swinto001jer#standard_batting::none"><b>Jermaine Swinton</b></a></td><td>18.4877</td><td>1991</td><td>A</td><td>1.38231</td><td>.130</td><td>.293</td><td>.361</td><td>11.4</td><td>38.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=taglia002eug#standard_batting::none"><b>Gino Tagliaferri</b></a></td><td>19.2219</td><td>1990</td><td>A</td><td>1.38357</td><td>.122</td><td>.281</td><td>.333</td><td>10.7</td><td>36.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=alder-001jam#standard_batting::none"><b>Jimmy Alder</b></a></td><td>18.9014</td><td>1991</td><td>A</td><td>1.38618</td><td>.101</td><td>.272</td><td>.318</td><td>14.2</td><td>35.8</td><td>0.00</td></tr>
+</table></br>
+</body></table>

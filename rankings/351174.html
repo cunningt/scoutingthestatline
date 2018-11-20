@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>D.J. Daniels, (Rk APPY)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>D.J. Daniels, 2018 (Rk / APPY)</h2></b><br>
+            <b>APPY League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=BABIP&group=league', 'Age/BABIP APPY League Graph', 'This graph shows D.J. Daniels in relation to all other players in the APPY.    The graph shows BABIP according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=bbrate&group=league', 'Age/BB% APPY League Graph', 'This graph shows D.J. Daniels in relation to all other players in the APPY.    The graph shows BB% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=ISOP&group=league', 'Age/ISO APPY League Graph', 'This graph shows D.J. Daniels in relation to all other players in the APPY.    The graph shows ISO according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=krate&group=league', 'Age/K% APPY League Graph', 'This graph shows D.J. Daniels in relation to all other players in the APPY.    The graph shows K% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=WOBA&group=league', 'Age/wOBA APPY League Graph', 'This graph shows D.J. Daniels in relation to all other players in the APPY.    The graph shows wOBA according to age, decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Rk Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=BABIP&group=level', 'Age/BABIP Rk Level Graph', 'This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=bbrate&group=level', 'Age/BB% Rk Level Graph', 'This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=ISOP&group=level', 'Age/ISO Rk Level Graph', 'This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=krate&group=level', 'Age/K% Rk Level Graph', 'This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=WOBA&group=level'), 'Age/wOBA Rk Level Graph', 'This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351174&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows D.J. Daniels in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351174&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows D.J. Daniels in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351174&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows D.J. Daniels in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351174&criteria=krate', 'Age/K% Comps Graph', 'This graph shows D.J. Daniels in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351174&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows D.J. Daniels in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351174&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of D.J. Daniels's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351174&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of D.J. Daniels's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2017</td><td>19.3014</td><td>Rk</td><td>.057</td><td>.256</td><td>.180</td><td>36.3</td><td>5.1</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>20.3014</td><td>Rk</td><td>.080</td><td>.283</td><td>.217</td><td>35.8</td><td>6.0</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows D.J. Daniels in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351174&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to D.J. Daniels, 2018 (Rk APPY)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=daniel000dj-#standard_batting::none"><b>D.J. Daniels</b></a></td><td>20.3014</td><td>2018</td><td>Rk</td><td>0.0</td><td>.080</td><td>.217</td><td>.283</td><td>6.0</td><td>35.8</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=vance-001ric#standard_batting::none"><b>Ricky Vance</b></a></td><td>20.3479</td><td>1987</td><td>Rk</td><td>0.389226</td><td>.109</td><td>.242</td><td>.305</td><td>5.9</td><td>34.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=delacr001jas#standard_batting::none"><b>Jason De La Cruz</b></a></td><td>20.3726</td><td>2005</td><td>Rk</td><td>0.447757</td><td>.072</td><td>.207</td><td>.250</td><td>5.8</td><td>33.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=woods-001ahm#standard_batting::none"><b>Ahmad Woods</b></a></td><td>20.3562</td><td>2002</td><td>Rk</td><td>0.464922</td><td>.113</td><td>.223</td><td>.276</td><td>5.8</td><td>36.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=franco001amb#standard_batting::none"><b>Ambiorix Franco</b></a></td><td>20.2904</td><td>2003</td><td>Rk</td><td>0.553466</td><td>.049</td><td>.204</td><td>.275</td><td>4.7</td><td>32.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=whitro001sco#standard_batting::none"><b>Scott Whitrock</b></a></td><td>20.2986</td><td>2001</td><td>Rk</td><td>0.554209</td><td>.038</td><td>.194</td><td>.276</td><td>6.0</td><td>34.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=medina001fer#standard_batting::none"><b>Fernando Medina</b></a></td><td>20.2986</td><td>2005</td><td>Rk</td><td>0.565042</td><td>.103</td><td>.197</td><td>.246</td><td>5.8</td><td>37.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=adams-001law#standard_batting::none"><b>Lawrence Adams</b></a></td><td>20.1288</td><td>1997</td><td>Rk</td><td>0.651004</td><td>.085</td><td>.227</td><td>.273</td><td>8.3</td><td>33.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cabrer001ale#standard_batting::none"><b>Alex Cabrera</b></a></td><td>20.2849</td><td>1992</td><td>Rk</td><td>0.655593</td><td>.051</td><td>.224</td><td>.306</td><td>5.9</td><td>31.6</td><td>0.39</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=boka--001ben#standard_batting::none"><b>Ben Boka</b></a></td><td>20.2384</td><td>1993</td><td>Rk</td><td>0.66252</td><td>.055</td><td>.210</td><td>.250</td><td>8.3</td><td>33.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mitche001tra#standard_batting::none"><b>Travis Mitchell</b></a></td><td>20.526</td><td>2008</td><td>Rk</td><td>0.687089</td><td>.119</td><td>.249</td><td>.306</td><td>6.5</td><td>35.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=humes-001ter#standard_batting::none"><b>Terryll Humes</b></a></td><td>20.3233</td><td>1992</td><td>Rk</td><td>0.689243</td><td>.071</td><td>.226</td><td>.270</td><td>6.7</td><td>29.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=parra-001cam#standard_batting::none"><b>Camilo Parra</b></a></td><td>20.4055</td><td>2007</td><td>Rk</td><td>0.692338</td><td>.108</td><td>.248</td><td>.293</td><td>5.0</td><td>30.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=deleon001epi#standard_batting::none"><b>Epifanio De Leon</b></a></td><td>20.2493</td><td>2006</td><td>Rk</td><td>0.697878</td><td>.118</td><td>.239</td><td>.311</td><td>3.9</td><td>33.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mason-001fel#standard_batting::none"><b>Felton Mason</b></a></td><td>20.4685</td><td>1989</td><td>Rk</td><td>0.700268</td><td>.088</td><td>.247</td><td>.300</td><td>9.2</td><td>35.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lina--001est#standard_batting::none"><b>Estivinson Lina</b></a></td><td>20.463</td><td>1997</td><td>Rk</td><td>0.705109</td><td>.078</td><td>.229</td><td>.258</td><td>8.8</td><td>33.3</td><td>0.00</td></tr>
+</table></br>
+</body></table>

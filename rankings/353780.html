@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>J.P. Sportman, (AA TL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>J.P. Sportman, 2018 (AA / TL)</h2></b><br>
+            <b>TL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=BABIP&group=league', 'Age/BABIP TL League Graph', 'This graph shows J.P. Sportman in relation to all other players in the TL.    The graph shows BABIP according to age, decreasing towards the youngest players in TL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=bbrate&group=league', 'Age/BB% TL League Graph', 'This graph shows J.P. Sportman in relation to all other players in the TL.    The graph shows BB% according to age, decreasing towards the youngest players in TL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=ISOP&group=league', 'Age/ISO TL League Graph', 'This graph shows J.P. Sportman in relation to all other players in the TL.    The graph shows ISO according to age, decreasing towards the youngest players in TL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=krate&group=league', 'Age/K% TL League Graph', 'This graph shows J.P. Sportman in relation to all other players in the TL.    The graph shows K% according to age, decreasing towards the youngest players in TL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=WOBA&group=league', 'Age/wOBA TL League Graph', 'This graph shows J.P. Sportman in relation to all other players in the TL.    The graph shows wOBA according to age, decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>AA Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=BABIP&group=level', 'Age/BABIP AA Level Graph', 'This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows BABIP according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=bbrate&group=level', 'Age/BB% AA Level Graph', 'This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows BB% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=ISOP&group=level', 'Age/ISO AA Level Graph', 'This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows ISO according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=krate&group=level', 'Age/K% AA Level Graph', 'This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows K% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=WOBA&group=level'), 'Age/wOBA AA Level Graph', 'This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows wOBA according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353780&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows J.P. Sportman in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353780&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows J.P. Sportman in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353780&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows J.P. Sportman in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353780&criteria=krate', 'Age/K% Comps Graph', 'This graph shows J.P. Sportman in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=353780&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows J.P. Sportman in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=353780&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of J.P. Sportman's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=353780&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of J.P. Sportman's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2014</td><td>22.1945</td><td>Rk</td><td>.071</td><td>.355</td><td>.360</td><td>8.9</td><td>13.9</td></tr>
+</tr>
+<tr>
+<td>2014</td><td>22.1945</td><td>A-</td><td>.116</td><td>.333</td><td>.326</td><td>14.0</td><td>5.1</td></tr>
+</tr>
+<tr>
+<td>2015</td><td>23.1945</td><td>Rk</td><td>.000</td><td>.363</td><td>.346</td><td>7.4</td><td>11.1</td></tr>
+</tr>
+<tr>
+<td>2015</td><td>23.1945</td><td>A+</td><td>.142</td><td>.365</td><td>.330</td><td>22.8</td><td>6.0</td></tr>
+</tr>
+<tr>
+<td>2016</td><td>24.1973</td><td>AA</td><td>.111</td><td>.312</td><td>.297</td><td>15.9</td><td>5.0</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>25.1973</td><td>AA</td><td>.142</td><td>.329</td><td>.318</td><td>20.3</td><td>6.5</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>26.1973</td><td>AA</td><td>.169</td><td>.318</td><td>.325</td><td>19.4</td><td>5.1</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>26.1973</td><td>AAA</td><td>.205</td><td>.280</td><td>.286</td><td>25.0</td><td>2.8</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows J.P. Sportman in relation to all other players at AA.    The graph shows BABIP according to age (decreasing towards the youngest players in AA).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=353780&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to J.P. Sportman, 2018 (AA TL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=sportm000jp-#standard_batting::none"><b>J.P. Sportman</b></a></td><td>26.1973</td><td>2018</td><td>AA</td><td>0.0</td><td>.169</td><td>.325</td><td>.318</td><td>5.1</td><td>19.4</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mitche003jos#standard_batting::none"><b>Joe Mitchell</b></a></td><td>26.1507</td><td>1988</td><td>AA</td><td>0.19102</td><td>.158</td><td>.311</td><td>.310</td><td>5.8</td><td>20.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=spann-001emm#standard_batting::none"><b>Tookie Spann</b></a></td><td>26.1342</td><td>1993</td><td>AA</td><td>0.258546</td><td>.153</td><td>.314</td><td>.328</td><td>5.0</td><td>21.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=klimek001jos#standard_batting::none"><b>Josh Klimek*</b></a></td><td>26.1781</td><td>2000</td><td>AA</td><td>0.327367</td><td>.169</td><td>.331</td><td>.307</td><td>6.9</td><td>17.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=faison001vin#standard_batting::none"><b>Vince Faison*</b></a></td><td>26.2055</td><td>2007</td><td>AA</td><td>0.344302</td><td>.146</td><td>.273</td><td>.283</td><td>6.0</td><td>21.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mcnair001fre#standard_batting::none"><b>Fred McNair</b></a></td><td>26.1836</td><td>1996</td><td>AA</td><td>0.358633</td><td>.134</td><td>.308</td><td>.322</td><td>4.2</td><td>20.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=charle001fra#standard_batting::none"><b>Frank Charles</b></a></td><td>26.1178</td><td>1995</td><td>AA</td><td>0.374413</td><td>.144</td><td>.291</td><td>.285</td><td>4.3</td><td>18.0</td><td>-0.02</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=caffre002rob#standard_batting::none"><b>Bob Caffrey</b></a></td><td>26.2493</td><td>1988</td><td>AA</td><td>0.396692</td><td>.136</td><td>.270</td><td>.270</td><td>4.8</td><td>21.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=spanos001vas#standard_batting::none"><b>Vasili Spanos</b></a></td><td>26.1123</td><td>2007</td><td>AA</td><td>0.400021</td><td>.155</td><td>.308</td><td>.312</td><td>4.0</td><td>16.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=alfonz001eli#standard_batting::none"><b>Eliezer Alfonzo</b></a></td><td>26.1644</td><td>2005</td><td>AA</td><td>0.418647</td><td>.204</td><td>.358</td><td>.356</td><td>4.2</td><td>20.6</td><td>-0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=norris002ste#standard_batting::none"><b>Dax Norris</b></a></td><td>26.2301</td><td>1998</td><td>AA</td><td>0.437712</td><td>.165</td><td>.289</td><td>.264</td><td>6.8</td><td>19.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=rothfo001jam#standard_batting::none"><b>James Rothford</b></a></td><td>26.063</td><td>1981</td><td>AA</td><td>0.442549</td><td>.170</td><td>.321</td><td>.292</td><td>5.7</td><td>16.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=eddie-001ste#standard_batting::none"><b>Steve Eddie</b></a></td><td>26.2521</td><td>1997</td><td>AA</td><td>0.455209</td><td>.144</td><td>.320</td><td>.319</td><td>4.9</td><td>15.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=leday-001ant#standard_batting::none"><b>A.J. Leday</b></a></td><td>26.1342</td><td>1999</td><td>AA</td><td>0.458308</td><td>.139</td><td>.281</td><td>.298</td><td>4.2</td><td>24.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=serran001ray#standard_batting::none"><b>Ray Serrano</b></a></td><td>26.2137</td><td>2007</td><td>AA</td><td>0.461233</td><td>.203</td><td>.358</td><td>.336</td><td>6.7</td><td>14.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=monds-001won#standard_batting::none"><b>Wonder Monds</b></a></td><td>26.2356</td><td>1999</td><td>AA</td><td>0.462023</td><td>.163</td><td>.306</td><td>.277</td><td>5.1</td><td>14.6</td><td>0.00</td></tr>
+</table></br>
+</body></table>

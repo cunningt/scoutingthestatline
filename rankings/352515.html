@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>J.D. Osborne, (A SALL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>J.D. Osborne, 2018 (A / SALL)</h2></b><br>
+            <b>SALL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=BABIP&group=league', 'Age/BABIP SALL League Graph', 'This graph shows J.D. Osborne in relation to all other players in the SALL.    The graph shows BABIP according to age, decreasing towards the youngest players in SALL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=bbrate&group=league', 'Age/BB% SALL League Graph', 'This graph shows J.D. Osborne in relation to all other players in the SALL.    The graph shows BB% according to age, decreasing towards the youngest players in SALL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=ISOP&group=league', 'Age/ISO SALL League Graph', 'This graph shows J.D. Osborne in relation to all other players in the SALL.    The graph shows ISO according to age, decreasing towards the youngest players in SALL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=krate&group=league', 'Age/K% SALL League Graph', 'This graph shows J.D. Osborne in relation to all other players in the SALL.    The graph shows K% according to age, decreasing towards the youngest players in SALL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=WOBA&group=league', 'Age/wOBA SALL League Graph', 'This graph shows J.D. Osborne in relation to all other players in the SALL.    The graph shows wOBA according to age, decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=BABIP&group=level', 'Age/BABIP A Level Graph', 'This graph shows J.D. Osborne in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=bbrate&group=level', 'Age/BB% A Level Graph', 'This graph shows J.D. Osborne in relation to all other players at A.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=ISOP&group=level', 'Age/ISO A Level Graph', 'This graph shows J.D. Osborne in relation to all other players at A.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=krate&group=level', 'Age/K% A Level Graph', 'This graph shows J.D. Osborne in relation to all other players at A.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=WOBA&group=level'), 'Age/wOBA A Level Graph', 'This graph shows J.D. Osborne in relation to all other players at A.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352515&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows J.D. Osborne in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352515&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows J.D. Osborne in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352515&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows J.D. Osborne in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352515&criteria=krate', 'Age/K% Comps Graph', 'This graph shows J.D. Osborne in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352515&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows J.D. Osborne in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352515&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of J.D. Osborne's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352515&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of J.D. Osborne's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2017</td><td>21.7342</td><td>Rk</td><td>.047</td><td>.260</td><td>.271</td><td>13.0</td><td>12.0</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>22.7342</td><td>A-</td><td>.169</td><td>.358</td><td>.383</td><td>11.2</td><td>10.4</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>22.7342</td><td>A</td><td>.183</td><td>.275</td><td>.285</td><td>15.7</td><td>2.0</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows J.D. Osborne in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352515&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to J.D. Osborne, 2018 (A SALL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=osborn001jd-#standard_batting::none"><b>J.D. Osborne</b></a></td><td>22.7342</td><td>2018</td><td>A</td><td>0.0</td><td>.183</td><td>.285</td><td>.275</td><td>2.0</td><td>15.7</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=davis-006mar#standard_batting::none"><b>Mark Davis</b></a></td><td>22.6712</td><td>1988</td><td>A</td><td>0.550996</td><td>.164</td><td>.283</td><td>.248</td><td>3.9</td><td>15.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=valdes002jua#standard_batting::none"><b>Juan Valdes#</b></a></td><td>22.7918</td><td>2008</td><td>A</td><td>0.72402</td><td>.166</td><td>.273</td><td>.255</td><td>4.8</td><td>17.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=angel-001ant#standard_batting::none"><b>Tony Angel</b></a></td><td>22.7644</td><td>2001</td><td>A</td><td>0.76566</td><td>.141</td><td>.287</td><td>.278</td><td>3.4</td><td>12.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ramos-001kel#standard_batting::none"><b>Kelly Ramos#</b></a></td><td>22.474</td><td>1999</td><td>A</td><td>0.784959</td><td>.167</td><td>.288</td><td>.283</td><td>3.2</td><td>18.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=britto001phi#standard_batting::none"><b>Phillip Britton</b></a></td><td>22.5288</td><td>2007</td><td>A</td><td>0.785087</td><td>.168</td><td>.317</td><td>.305</td><td>2.5</td><td>12.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ivany-001dev#standard_batting::none"><b>Devin Ivany</b></a></td><td>22.6959</td><td>2005</td><td>A</td><td>0.791962</td><td>.166</td><td>.308</td><td>.281</td><td>5.6</td><td>14.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gallag001jim#standard_batting::none"><b>Jim Gallagher*</b></a></td><td>22.5918</td><td>2008</td><td>A</td><td>0.792639</td><td>.169</td><td>.316</td><td>.288</td><td>5.2</td><td>14.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=tenace001fra#standard_batting::none"><b>Francisco Tenacen</b></a></td><td>22.4932</td><td>1987</td><td>A</td><td>0.797579</td><td>.168</td><td>.287</td><td>.262</td><td>3.9</td><td>18.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cozart001zac#standard_batting::none"><b>Zack Cozart</b></a></td><td>22.6521</td><td>2008</td><td>A</td><td>0.805206</td><td>.177</td><td>.319</td><td>.309</td><td>5.2</td><td>16.6</td><td>16.50</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mottra001all#standard_batting::none"><b>Allen Mottram</b></a></td><td>22.7863</td><td>2004</td><td>A</td><td>0.830775</td><td>.173</td><td>.318</td><td>.290</td><td>5.9</td><td>15.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=miller001lar#standard_batting::none"><b>Larry Miller*</b></a></td><td>22.8</td><td>1960</td><td>A</td><td>0.877635</td><td>.129</td><td>.240</td><td>.250</td><td>0.0</td><td>18.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=wong--001jer#standard_batting::none"><b>Jerrod Wong*</b></a></td><td>22.8575</td><td>1997</td><td>A</td><td>0.884205</td><td>.175</td><td>.319</td><td>.318</td><td>3.9</td><td>19.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=welsh-001eri#standard_batting::none"><b>Eric Welsh*</b></a></td><td>22.5507</td><td>1999</td><td>A</td><td>0.894349</td><td>.192</td><td>.339</td><td>.292</td><td>5.8</td><td>14.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hunt--001kel#standard_batting::none"><b>Kelly Hunt</b></a></td><td>22.9781</td><td>2004</td><td>A</td><td>0.909555</td><td>.166</td><td>.313</td><td>.303</td><td>3.8</td><td>18.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mendez001ser#standard_batting::none"><b>Sergio Mendez</b></a></td><td>22.4849</td><td>1996</td><td>A</td><td>0.91213</td><td>.174</td><td>.284</td><td>.246</td><td>4.8</td><td>16.7</td><td>0.00</td></tr>
+</table></br>
+</body></table>

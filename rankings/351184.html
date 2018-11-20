@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Gabriel Moreno, (Rk APPY)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Gabriel Moreno, 2018 (Rk / APPY)</h2></b><br>
+            <b>APPY League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=BABIP&group=league', 'Age/BABIP APPY League Graph', 'This graph shows Gabriel Moreno in relation to all other players in the APPY.    The graph shows BABIP according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=bbrate&group=league', 'Age/BB% APPY League Graph', 'This graph shows Gabriel Moreno in relation to all other players in the APPY.    The graph shows BB% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=ISOP&group=league', 'Age/ISO APPY League Graph', 'This graph shows Gabriel Moreno in relation to all other players in the APPY.    The graph shows ISO according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=krate&group=league', 'Age/K% APPY League Graph', 'This graph shows Gabriel Moreno in relation to all other players in the APPY.    The graph shows K% according to age, decreasing towards the youngest players in APPY.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=WOBA&group=league', 'Age/wOBA APPY League Graph', 'This graph shows Gabriel Moreno in relation to all other players in the APPY.    The graph shows wOBA according to age, decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Rk Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=BABIP&group=level', 'Age/BABIP Rk Level Graph', 'This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=bbrate&group=level', 'Age/BB% Rk Level Graph', 'This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=ISOP&group=level', 'Age/ISO Rk Level Graph', 'This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=krate&group=level', 'Age/K% Rk Level Graph', 'This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=WOBA&group=level'), 'Age/wOBA Rk Level Graph', 'This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351184&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Gabriel Moreno in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351184&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Gabriel Moreno in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351184&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Gabriel Moreno in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351184&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Gabriel Moreno in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=351184&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Gabriel Moreno in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in Rk.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351184&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Gabriel Moreno's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=351184&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Gabriel Moreno's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2018</td><td>18.1397</td><td>Rk</td><td>.239</td><td>.428</td><td>.441</td><td>6.9</td><td>4.0</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>18.1397</td><td>Rk</td><td>.180</td><td>.312</td><td>.322</td><td>19.7</td><td>4.5</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Gabriel Moreno in relation to all other players at Rk.    The graph shows BABIP according to age (decreasing towards the youngest players in Rk).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=351184&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Gabriel Moreno, 2018 (Rk APPY)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moreno000gab#standard_batting::none"><b>Gabriel Moreno</b></a></td><td>18.1397</td><td>2018</td><td>Rk</td><td>0.0</td><td>.180</td><td>.322</td><td>.312</td><td>4.5</td><td>19.7</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=perez-001ale#standard_batting::none"><b>Alejandro Perez</b></a></td><td>18.0521</td><td>1997</td><td>Rk</td><td>0.292211</td><td>.178</td><td>.320</td><td>.327</td><td>4.9</td><td>20.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=witt--001kev#standard_batting::none"><b>Kevin Witt*</b></a></td><td>18.2493</td><td>1994</td><td>Rk</td><td>0.500863</td><td>.160</td><td>.306</td><td>.297</td><td>5.7</td><td>19.9</td><td>-1.59</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=sing--001bra#standard_batting::none"><b>Brandon Sing</b></a></td><td>18.063</td><td>1999</td><td>Rk</td><td>0.505637</td><td>.176</td><td>.323</td><td>.313</td><td>6.8</td><td>21.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=calder001jos#standard_batting::none"><b>Joseph Calder</b></a></td><td>18.3205</td><td>1991</td><td>Rk</td><td>0.562559</td><td>.178</td><td>.333</td><td>.329</td><td>4.6</td><td>17.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jimene001rob#standard_batting::none"><b>Roberto Jimenez</b></a></td><td>17.9699</td><td>1989</td><td>Rk</td><td>0.648933</td><td>.153</td><td>.285</td><td>.312</td><td>4.3</td><td>22.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mapp--001wil#standard_batting::none"><b>Eric Mapp#</b></a></td><td>18.4027</td><td>1996</td><td>Rk</td><td>0.815354</td><td>.177</td><td>.319</td><td>.325</td><td>6.8</td><td>21.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jimene002elv#standard_batting::none"><b>Elvis Jimenez</b></a></td><td>18.0658</td><td>1994</td><td>Rk</td><td>0.816699</td><td>.142</td><td>.298</td><td>.338</td><td>3.5</td><td>21.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=burrow001mic#standard_batting::none"><b>Mike Burrows*</b></a></td><td>18.211</td><td>1994</td><td>Rk</td><td>0.834755</td><td>.155</td><td>.326</td><td>.361</td><td>5.0</td><td>21.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=battle001how#standard_batting::none"><b>Howard Battle</b></a></td><td>18.0301</td><td>1990</td><td>Rk</td><td>0.837995</td><td>.145</td><td>.313</td><td>.300</td><td>6.0</td><td>15.2</td><td>0.11</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=torres007ant#standard_batting::none"><b>Frederick Torres</b></a></td><td>18.0548</td><td>1998</td><td>Rk</td><td>0.840446</td><td>.134</td><td>.257</td><td>.253</td><td>4.4</td><td>20.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=garcia001dan#standard_batting::none"><b>Daniel Garcia</b></a></td><td>18.274</td><td>2006</td><td>Rk</td><td>0.841322</td><td>.144</td><td>.272</td><td>.263</td><td>6.0</td><td>21.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=carter001ver#standard_batting::none"><b>Chris Carter</b></a></td><td>18.2986</td><td>2005</td><td>Rk</td><td>0.845676</td><td>.201</td><td>.335</td><td>.347</td><td>6.5</td><td>24.4</td><td>2.38</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lehr--001rya#standard_batting::none"><b>Ryan Lehr</b></a></td><td>18.137</td><td>1997</td><td>Rk</td><td>0.866651</td><td>.149</td><td>.334</td><td>.335</td><td>4.1</td><td>14.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=portes001jua#standard_batting::none"><b>Juan Portes</b></a></td><td>18.3589</td><td>2004</td><td>Rk</td><td>0.867082</td><td>.202</td><td>.371</td><td>.348</td><td>6.4</td><td>14.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lorenz001jua#standard_batting::none"><b>Juan Lorenzo#</b></a></td><td>18.4027</td><td>1997</td><td>Rk</td><td>0.879477</td><td>.166</td><td>.335</td><td>.339</td><td>5.2</td><td>16.5</td><td>0.00</td></tr>
+</table></br>
+</body></table>

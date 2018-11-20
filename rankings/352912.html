@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Brian Mundell, (AA EL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Brian Mundell, 2018 (AA / EL)</h2></b><br>
+            <b>EL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=BABIP&group=league', 'Age/BABIP EL League Graph', 'This graph shows Brian Mundell in relation to all other players in the EL.    The graph shows BABIP according to age, decreasing towards the youngest players in EL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=bbrate&group=league', 'Age/BB% EL League Graph', 'This graph shows Brian Mundell in relation to all other players in the EL.    The graph shows BB% according to age, decreasing towards the youngest players in EL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=ISOP&group=league', 'Age/ISO EL League Graph', 'This graph shows Brian Mundell in relation to all other players in the EL.    The graph shows ISO according to age, decreasing towards the youngest players in EL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=krate&group=league', 'Age/K% EL League Graph', 'This graph shows Brian Mundell in relation to all other players in the EL.    The graph shows K% according to age, decreasing towards the youngest players in EL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=WOBA&group=league', 'Age/wOBA EL League Graph', 'This graph shows Brian Mundell in relation to all other players in the EL.    The graph shows wOBA according to age, decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>AA Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=BABIP&group=level', 'Age/BABIP AA Level Graph', 'This graph shows Brian Mundell in relation to all other players at AA.    The graph shows BABIP according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=bbrate&group=level', 'Age/BB% AA Level Graph', 'This graph shows Brian Mundell in relation to all other players at AA.    The graph shows BB% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=ISOP&group=level', 'Age/ISO AA Level Graph', 'This graph shows Brian Mundell in relation to all other players at AA.    The graph shows ISO according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=krate&group=level', 'Age/K% AA Level Graph', 'This graph shows Brian Mundell in relation to all other players at AA.    The graph shows K% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=WOBA&group=level'), 'Age/wOBA AA Level Graph', 'This graph shows Brian Mundell in relation to all other players at AA.    The graph shows wOBA according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352912&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Brian Mundell in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352912&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Brian Mundell in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352912&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Brian Mundell in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352912&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Brian Mundell in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352912&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Brian Mundell in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in AA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352912&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Brian Mundell's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352912&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Brian Mundell's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2016</td><td>22.1041</td><td>A</td><td>.191</td><td>.343</td><td>.371</td><td>13.6</td><td>9.2</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>23.1041</td><td>A+</td><td>.204</td><td>.319</td><td>.382</td><td>14.6</td><td>11.6</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>23.1041</td><td>AA</td><td>.122</td><td>.335</td><td>.354</td><td>12.8</td><td>12.3</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>24.1041</td><td>AA</td><td>.108</td><td>.301</td><td>.314</td><td>15.2</td><td>10.5</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Brian Mundell in relation to all other players at AA.    The graph shows BABIP according to age (decreasing towards the youngest players in AA).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352912&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Brian Mundell, 2018 (AA EL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mundel000bri#standard_batting::none"><b>Brian Mundell</b></a></td><td>24.1041</td><td>2018</td><td>AA</td><td>0.0</td><td>.108</td><td>.314</td><td>.301</td><td>10.5</td><td>15.2</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bowie-001jam#standard_batting::none"><b>Jim Bowie*</b></a></td><td>24.1342</td><td>1989</td><td>AA</td><td>0.142613</td><td>.119</td><td>.323</td><td>.314</td><td>10.6</td><td>14.9</td><td>-0.15</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=maxwel001jas#standard_batting::none"><b>Jason Maxwell</b></a></td><td>24.0329</td><td>1996</td><td>AA</td><td>0.205894</td><td>.113</td><td>.320</td><td>.302</td><td>11.2</td><td>15.3</td><td>-0.09</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=collin001gre#standard_batting::none"><b>Gregory Collins</b></a></td><td>24.1808</td><td>1976</td><td>AA</td><td>0.210237</td><td>.101</td><td>.313</td><td>.301</td><td>10.1</td><td>15.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=freili001how#standard_batting::none"><b>Howie Freiling*</b></a></td><td>24.1342</td><td>1990</td><td>AA</td><td>0.225711</td><td>.096</td><td>.312</td><td>.308</td><td>11.0</td><td>16.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pelaez001ale#standard_batting::none"><b>Alex Pelaez</b></a></td><td>24.0027</td><td>2000</td><td>AA</td><td>0.267483</td><td>.100</td><td>.316</td><td>.297</td><td>9.9</td><td>14.9</td><td>-0.09</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=edward003mic#standard_batting::none"><b>Mike Edwards</b></a></td><td>24.0795</td><td>1994</td><td>AA</td><td>0.279273</td><td>.128</td><td>.314</td><td>.293</td><td>10.7</td><td>14.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jorgen001ran#standard_batting::none"><b>Randy Jorgensen*</b></a></td><td>24.011</td><td>1996</td><td>AA</td><td>0.300291</td><td>.126</td><td>.332</td><td>.316</td><td>10.8</td><td>14.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pope--001pet#standard_batting::none"><b>Van Pope</b></a></td><td>24.1123</td><td>2008</td><td>AA</td><td>0.303437</td><td>.100</td><td>.303</td><td>.295</td><td>8.9</td><td>13.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=betten001dav#standard_batting::none"><b>Dave Bettendorf*</b></a></td><td>24.063</td><td>1989</td><td>AA</td><td>0.308588</td><td>.094</td><td>.320</td><td>.309</td><td>9.5</td><td>13.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lombar002chr#standard_batting::none"><b>Chris Lombardozzi*</b></a></td><td>24.1863</td><td>1989</td><td>AA</td><td>0.322826</td><td>.101</td><td>.310</td><td>.292</td><td>10.5</td><td>12.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=montas001ric#standard_batting::none"><b>Ricardo Montas</b></a></td><td>24.0795</td><td>2001</td><td>AA</td><td>0.328676</td><td>.083</td><td>.294</td><td>.294</td><td>9.3</td><td>15.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hannah004joh#standard_batting::none"><b>Jack Hannahan*</b></a></td><td>24.0932</td><td>2004</td><td>AA</td><td>0.329784</td><td>.125</td><td>.339</td><td>.306</td><td>12.3</td><td>13.9</td><td>7.47</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=fisher001dav#standard_batting::none"><b>David Fisher</b></a></td><td>24.1096</td><td>1994</td><td>AA</td><td>0.344034</td><td>.123</td><td>.309</td><td>.279</td><td>11.7</td><td>13.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=castil004alb#standard_batting::none"><b>Alberto Castillo</b></a></td><td>24.1534</td><td>1994</td><td>AA</td><td>0.344929</td><td>.111</td><td>.310</td><td>.269</td><td>11.4</td><td>12.8</td><td>0.72</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=martin003chr#standard_batting::none"><b>Chris Martin</b></a></td><td>24.2</td><td>1992</td><td>AA</td><td>0.366431</td><td>.101</td><td>.289</td><td>.261</td><td>11.2</td><td>15.3</td><td>0.00</td></tr>
+</table></br>
+</body></table>

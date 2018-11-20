@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>Peter Bourjos, (AAA IL)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Peter Bourjos, 2018 (AAA / IL)</h2></b><br>
+            <b>IL League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=BABIP&group=league', 'Age/BABIP IL League Graph', 'This graph shows Peter Bourjos in relation to all other players in the IL.    The graph shows BABIP according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=bbrate&group=league', 'Age/BB% IL League Graph', 'This graph shows Peter Bourjos in relation to all other players in the IL.    The graph shows BB% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=ISOP&group=league', 'Age/ISO IL League Graph', 'This graph shows Peter Bourjos in relation to all other players in the IL.    The graph shows ISO according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=krate&group=league', 'Age/K% IL League Graph', 'This graph shows Peter Bourjos in relation to all other players in the IL.    The graph shows K% according to age, decreasing towards the youngest players in IL.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=WOBA&group=league', 'Age/wOBA IL League Graph', 'This graph shows Peter Bourjos in relation to all other players in the IL.    The graph shows wOBA according to age, decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>AAA Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=BABIP&group=level', 'Age/BABIP AAA Level Graph', 'This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=bbrate&group=level', 'Age/BB% AAA Level Graph', 'This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=ISOP&group=level', 'Age/ISO AAA Level Graph', 'This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=krate&group=level', 'Age/K% AAA Level Graph', 'This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=WOBA&group=level'), 'Age/wOBA AAA Level Graph', 'This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352692&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Peter Bourjos in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352692&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Peter Bourjos in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352692&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Peter Bourjos in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352692&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Peter Bourjos in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=352692&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Peter Bourjos in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in AAA.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352692&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Peter Bourjos's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=352692&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Peter Bourjos's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2006</td><td>19.0164</td><td>Rk</td><td>.180</td><td>.382</td><td>.347</td><td>24.0</td><td>7.9</td></tr>
+</tr>
+<tr>
+<td>2007</td><td>20.0164</td><td>Rk</td><td>.125</td><td>.357</td><td>.345</td><td>11.8</td><td>5.9</td></tr>
+</tr>
+<tr>
+<td>2007</td><td>20.0164</td><td>A</td><td>.151</td><td>.326</td><td>.315</td><td>19.6</td><td>7.4</td></tr>
+</tr>
+<tr>
+<td>2008</td><td>21.0192</td><td>A+</td><td>.149</td><td>.344</td><td>.320</td><td>17.6</td><td>3.5</td></tr>
+</tr>
+<tr>
+<td>2009</td><td>22.0192</td><td>AA</td><td>.141</td><td>.325</td><td>.331</td><td>15.3</td><td>9.7</td></tr>
+</tr>
+<tr>
+<td>2010</td><td>23.0192</td><td>AAA</td><td>.183</td><td>.358</td><td>.352</td><td>17.1</td><td>5.3</td></tr>
+</tr>
+<tr>
+<td>2012</td><td>25.0219</td><td>AAA</td><td>.241</td><td>.391</td><td>.393</td><td>18.8</td><td>9.4</td></tr>
+</tr>
+<tr>
+<td>2013</td><td>26.0219</td><td>A+</td><td>.454</td><td>.250</td><td>.400</td><td>18.2</td><td>0.0</td></tr>
+</tr>
+<tr>
+<td>2013</td><td>26.0219</td><td>AAA</td><td>.208</td><td>.285</td><td>.278</td><td>34.5</td><td>7.3</td></tr>
+</tr>
+<tr>
+<td>2016</td><td>29.0247</td><td>AAA</td><td>.166</td><td>.333</td><td>.330</td><td>26.3</td><td>5.3</td></tr>
+</tr>
+<tr>
+<td>2017</td><td>30.0247</td><td>A+</td><td>.250</td><td>.000</td><td>.162</td><td>16.7</td><td>0.0</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>31.0247</td><td>AAA</td><td>.234</td><td>.328</td><td>.362</td><td>18.1</td><td>9.5</td></tr>
+</tr>
+<tr>
+<td>2018</td><td>31.0247</td><td>AAA</td><td>.129</td><td>.365</td><td>.320</td><td>20.2</td><td>4.0</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Peter Bourjos in relation to all other players at AAA.    The graph shows BABIP according to age (decreasing towards the youngest players in AAA).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=352692&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+</br>
+<b>Similar minor league seasons to Peter Bourjos, 2018 (AAA IL)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bourjo001pet#standard_batting::none"><b>Peter Bourjos</b></a></td><td>31.0247</td><td>2018</td><td>AAA</td><td>0.0</td><td>.234</td><td>.362</td><td>.328</td><td>9.5</td><td>18.1</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=brumle001ant#standard_batting::none"><b>Mike Brumley#</b></a></td><td>31</td><td>1994</td><td>AAA</td><td>0.186084</td><td>.224</td><td>.371</td><td>.331</td><td>9.8</td><td>19.7</td><td>-2.31</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=barket001and#standard_batting::none"><b>Andy Barkett*</b></a></td><td>30.9781</td><td>2004</td><td>AAA</td><td>0.304388</td><td>.213</td><td>.353</td><td>.307</td><td>8.2</td><td>17.3</td><td>0.15</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jose--001dom#standard_batting::none"><b>Felix Jose#</b></a></td><td>30.937</td><td>1996</td><td>AAA</td><td>0.462685</td><td>.201</td><td>.336</td><td>.272</td><td>8.9</td><td>17.5</td><td>6.40</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=schall001eug#standard_batting::none"><b>Gene Schall</b></a></td><td>30.8438</td><td>2001</td><td>AAA</td><td>0.476138</td><td>.243</td><td>.366</td><td>.309</td><td>10.2</td><td>18.8</td><td>-0.17</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hoover001pau#standard_batting::none"><b>Paul Hoover</b></a></td><td>30.9836</td><td>2007</td><td>AAA</td><td>0.489752</td><td>.218</td><td>.356</td><td>.315</td><td>6.7</td><td>17.1</td><td>-0.29</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lindse004joh#standard_batting::none"><b>John Lindsey</b></a></td><td>31.189</td><td>2008</td><td>AAA</td><td>0.519219</td><td>.241</td><td>.394</td><td>.333</td><td>11.2</td><td>14.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=ransom001bry#standard_batting::none"><b>Cody Ransom</b></a></td><td>31.1397</td><td>2007</td><td>AAA</td><td>0.52828</td><td>.236</td><td>.349</td><td>.296</td><td>9.2</td><td>23.3</td><td>0.33</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=zinter001ala#standard_batting::none"><b>Alan Zinter#</b></a></td><td>30.8877</td><td>1999</td><td>AAA</td><td>0.565271</td><td>.215</td><td>.341</td><td>.285</td><td>8.9</td><td>23.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pritch001chr#standard_batting::none"><b>Chris Pritchett*</b></a></td><td>31.1863</td><td>2001</td><td>AAA</td><td>0.597358</td><td>.195</td><td>.368</td><td>.352</td><td>8.5</td><td>19.4</td><td>-0.67</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=secris001ree#standard_batting::none"><b>Reed Secrist*</b></a></td><td>30.9233</td><td>2001</td><td>AAA</td><td>0.597732</td><td>.260</td><td>.401</td><td>.343</td><td>12.2</td><td>20.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pratt-001tod#standard_batting::none"><b>Todd Pratt</b></a></td><td>31.1616</td><td>1998</td><td>AAA</td><td>0.598291</td><td>.228</td><td>.417</td><td>.376</td><td>10.8</td><td>13.7</td><td>1.47</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=turner002chr#standard_batting::none"><b>Chris Turner</b></a></td><td>31.0466</td><td>2000</td><td>AAA</td><td>0.620561</td><td>.204</td><td>.342</td><td>.322</td><td>6.4</td><td>23.4</td><td>-0.31</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bolick001fra#standard_batting::none"><b>Frank Bolick#</b></a></td><td>30.7808</td><td>1997</td><td>AAA</td><td>0.6377</td><td>.229</td><td>.390</td><td>.338</td><td>11.2</td><td>17.0</td><td>-0.85</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=strawb001dar#standard_batting::none"><b>Darryl Strawberry*</b></a></td><td>31.0767</td><td>1993</td><td>AAA</td><td>0.655274</td><td>.263</td><td>.408</td><td>.384</td><td>9.5</td><td>23.8</td><td>39.15</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=echeva001ang#standard_batting::none"><b>Angel Echevarria</b></a></td><td>30.874</td><td>2002</td><td>AAA</td><td>0.656639</td><td>.262</td><td>.376</td><td>.326</td><td>7.1</td><td>20.2</td><td>-0.81</td></tr>
+</table></br>
+</body></table>
