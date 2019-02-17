@@ -143,6 +143,16 @@
     <table>
         <tr><th>Position</th><th>Range</th><th>1B</th><th>2B</th><th>SS</th><th>3B</th><th>OF</th><th>CF</th></tr>
         <tr>
+                <td>C</td>
+                <td><input id="catcher" class="catchercalc" name="catcher" readonly value="---""></td>
+                <td><input class="calced" id="catch1B" readonly value="1.73"></td>
+                <td><input class="calced" id="catch2B" readonly></td>
+                <td><input class="calced" id="catchSS" readonly></td>
+                <td><input class="calced" id="catch3B" readonly></td>
+                <td><input class="calced" id="catchOF" readonly value="1.93"></td>
+                <td><input class="calced" id="catchCF" readonly value="1.93"></td>
+            </tr>
+        <tr>
             <td>1B</td>
             <td><input id="first" class="firstcalc" name="first" onchange="calcFirst()"></td>
             <td><input class="calced" id="first1B" readonly></td>
@@ -151,7 +161,7 @@
             <td><input class="calced" id="first3B" readonly></td>
             <td><input class="calced" id="firstOF" readonly></td>
             <td><input class="calced" id="firstCF" readonly></td>
-    </tr>
+        </tr>
         <tr>
             <td>2B</td>
             <td><input id="second" class="secondcalc" name="second" onchange="calcSecond()""></td>
@@ -192,6 +202,16 @@
             <td><input class="calced" id="ofOF" readonly></td>
             <td><input class="calced" id="ofCF" readonly></td>
         </tr>
+        <tr>
+                <td>DH</td>
+                <td><input id="dh" class="dhcalc" name="dh" readonly value="---"></td>
+                <td><input class="calced" id="dh1B" readonly value="1.70"></td>
+                <td><input class="calced" id="dh2B" readonly></td>
+                <td><input class="calced" id="dhSS" readonly></td>
+                <td><input class="calced" id="dh3B" readonly></td>
+                <td><input class="calced" id="dhOF" readonly value="1.90"></td>
+                <td><input class="calced" id="dhCF" readonly value="1.90"></td>
+            </tr>
     </table>
  </fieldset>
  <fieldset>
