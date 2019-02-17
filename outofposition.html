@@ -14,6 +14,7 @@
             var ofrange = (first - 1.85) + 1.94
             document.getElementById("first1B").value = parseFloat(first).toFixed(2)
             document.getElementById("firstOF").value = parseFloat(ofrange).toFixed(2)
+            document.getElementById("firstCF").value = parseFloat(ofrange).toFixed(2)
         }
 
         function calcSecond() {
@@ -35,6 +36,10 @@
             var ofrange = (second - 4.25) + 2.04
             var ofmin = Math.min(2.07, ofrange)
             document.getElementById("secondOF").value = parseFloat(ofmin).toFixed(2)
+
+            var cfrange = ((2.16/4.25) * (second - 4.25)) + 2.04
+            var cfmin = Math.min(2.16, cfrange)
+            document.getElementById("secondCF").value = parseFloat(cfmin).toFixed(2)
         }
 
         function calcShort() {
@@ -57,6 +62,11 @@
             var tempofrange = ((2.07 / 4.75) * (short - 4.75)) + 2.07
             var ofrange = Math.min(2.07, tempofrange)
             document.getElementById("shortOF").value = parseFloat(ofrange).toFixed(2)
+
+            var tempcfrange = ((2.16 / 4.75) * (short - 4.75)) + 2.07
+            var cfrange = Math.min(2.16, tempcfrange)
+            document.getElementById("shortCF").value = parseFloat(cfrange).toFixed(2)
+
         }
 
         function calcThird() {
@@ -79,6 +89,11 @@
             var tempofrange = ((2.07 / 2.65) * (third - 2.65)) + 2.01
             var ofrange = Math.min(2.07, tempofrange)
             document.getElementById("thirdOF").value = parseFloat(ofrange).toFixed(2)
+
+            var tempcfrange = ((2.16 / 2.65) * (third - 2.65)) + 2.01
+            var cfrange = Math.min(2.16, tempcfrange)
+            document.getElementById("thirdCF").value = parseFloat(cfrange).toFixed(2)
+
         }
 
         function calcOF() {
@@ -89,7 +104,10 @@
             document.getElementById("of1B").value = parseFloat(first).toFixed(2)
 
             document.getElementById("ofOF").value = parseFloat(ofrange).toFixed(2)
+            document.getElementById("ofCF").value = parseFloat(ofrange).toFixed(2)
         }
+
+        
 
         function cfCalc() {
             // Sort the OF ranges
@@ -107,9 +125,9 @@
 
             var cf = ofarray[2]
 
-            document.getElementById("cf1").value = cf * 1.4
+            document.getElementById("cf1").value = parseFloat(cf * 1.4).toFixed(2)
 
-            document.getElementById("cfresult").value = ((cf * 1.4) + (ofarray[1] * 1) + (ofarray[0] * 1))        
+            document.getElementById("cfresult").value = parseFloat(((cf * 1.4) + (ofarray[1] * 1) + (ofarray[0] * 1))).toFixed(2)
 
         }
 
@@ -123,7 +141,7 @@
  <fieldset>
     <legend>Out of Position Adjustments</legend>
     <table>
-        <tr><th>Position</th><th>Range</th><th>1B</th><th>2B</th><th>SS</th><th>3B</th><th>OF</th></tr>
+        <tr><th>Position</th><th>Range</th><th>1B</th><th>2B</th><th>SS</th><th>3B</th><th>OF</th><th>CF</th></tr>
         <tr>
             <td>1B</td>
             <td><input id="first" class="firstcalc" name="first" onchange="calcFirst()"></td>
@@ -132,6 +150,7 @@
             <td><input class="calced" id="firstSS" readonly></td>
             <td><input class="calced" id="first3B" readonly></td>
             <td><input class="calced" id="firstOF" readonly></td>
+            <td><input class="calced" id="firstCF" readonly></td>
     </tr>
         <tr>
             <td>2B</td>
@@ -141,6 +160,7 @@
             <td><input class="calced" id="secondSS" readonly></td>
             <td><input class="calced" id="second3B" readonly></td>
             <td><input class="calced" id="secondOF" readonly></td>
+            <td><input class="calced" id="secondCF" readonly></td>
     </tr>
         <tr>
             <td>SS</td>
@@ -150,6 +170,7 @@
             <td><input class="calced" id="shortSS" readonly></td>
             <td><input class="calced" id="short3B" readonly></td>
             <td><input class="calced" id="shortOF" readonly></td>
+            <td><input class="calced" id="shortCF" readonly></td>
         </tr>
         <tr>
             <td>3B</td>
@@ -159,6 +180,7 @@
                 <td><input class="calced" id="thirdSS" readonly></td>
                 <td><input class="calced" id="third3B" readonly></td>
                 <td><input class="calced" id="thirdOF" readonly></td>
+                <td><input class="calced" id="thirdCF" readonly></td>
         </tr>
         <tr>
             <td>OF</td>
@@ -168,6 +190,7 @@
             <td><input class="calced" id="ofSS" readonly></td>
             <td><input class="calced" id="of3B" readonly></td>
             <td><input class="calced" id="ofOF" readonly></td>
+            <td><input class="calced" id="ofCF" readonly></td>
         </tr>
     </table>
  </fieldset>
