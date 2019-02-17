@@ -1,0 +1,187 @@
+<html>
+<head>
+    <title>Out of Position Tool</title>
+
+    <script type=text/javascript>
+        var firstdef = 1.85;
+        var seconddef = 4.25;
+        var thirddef = 2.65;
+        var ssdef = 4.75;
+        var ofdef = 2.10;
+
+        function calcFirst() {
+            var first = document.getElementById("first").value
+            var ofrange = (first - 1.85) + 1.94
+            document.getElementById("first1B").value = parseFloat(first).toFixed(2)
+            document.getElementById("firstOF").value = parseFloat(ofrange).toFixed(2)
+        }
+
+        function calcSecond() {
+            var second = document.getElementById("second").value
+
+            var tempfirst = ((second - 4.25) * (1.85 / 4.25)) + 1.85
+            var first = Math.min(1.85, tempfirst)
+            document.getElementById("second1B").value = parseFloat(first).toFixed(2)
+            document.getElementById("second2B").value = parseFloat(second).toFixed(2)
+
+            var tempss = (second - 4.25) + 4.40
+            var ss = Math.min(4.75, tempss)
+            document.getElementById("secondSS").value = parseFloat(ss).toFixed(2)
+
+            var tempthird = ((2.65 / 4.25) * (second - 4.25)) + 2.53 
+            var third = Math.min(2.65, tempthird)
+            document.getElementById("second3B").value = parseFloat(third).toFixed(2) 
+
+            var ofrange = (second - 4.25) + 2.04
+            var ofmin = Math.min(2.07, ofrange)
+            document.getElementById("secondOF").value = parseFloat(ofmin).toFixed(2)
+        }
+
+        function calcShort() {
+            var short = document.getElementById("short").value
+
+            var tempfirst = ((short - 4.75) * (1.85 / 4.75)) + 1.85
+            var first = Math.min(1.85, tempfirst)
+            document.getElementById("short1B").value = parseFloat(first).toFixed(2)
+
+            var tempsecond = ((short - 4.75) * (4.25 / 4.75)) + 4.14f
+            var second = Math.min(4.25, tempsecond)          
+            document.getElementById("short2B").value = parseFloat(second).toFixed(2)
+
+            document.getElementById("shortSS").value = parseFloat(short).toFixed(2)
+
+            var tempthird = ((short - 4.75) * (2.65 / 4.75)) + 2.61
+            var third = Math.min(2.65, tempthird)
+            document.getElementById("short3B").value = parseFloat(third).toFixed(2) 
+
+            var tempofrange = ((2.07 / 4.75) * (short - 4.75)) + 2.07
+            var ofrange = Math.min(2.07, tempofrange)
+            document.getElementById("shortOF").value = parseFloat(ofrange).toFixed(2)
+        }
+
+        function calcThird() {
+            var third = document.getElementById("third").value
+
+            var tempfirst = ((third - 2.65) * (1.85 / 2.65)) + 1.85
+            var first = Math.min(1.85, tempfirst)
+            document.getElementById("third1B").value = parseFloat(first).toFixed(2)
+
+            var tempsecond = (third - 2.65) + 3.97
+            var second = Math.min(4.25, tempsecond)          
+            document.getElementById("third2B").value = parseFloat(second).toFixed(2)
+
+            var tempss = (third - 2.65) + 4.33
+            var ss = Math.min(4.33, tempss)          
+            document.getElementById("thirdSS").value = parseFloat(ss).toFixed(2)
+
+            document.getElementById("third3B").value = parseFloat(third).toFixed(2) 
+
+            var tempofrange = ((2.07 / 2.65) * (third - 2.65)) + 2.01
+            var ofrange = Math.min(2.07, tempofrange)
+            document.getElementById("thirdOF").value = parseFloat(ofrange).toFixed(2)
+        }
+
+        function calcOF() {
+            var ofrange = document.getElementById("of").value
+
+            var tempfirst = ((ofrange - 2.1) * (1.85 / 2.1)) + 1.79
+            var first = Math.min(1.85, tempfirst)
+            document.getElementById("of1B").value = parseFloat(first).toFixed(2)
+
+            document.getElementById("ofOF").value = parseFloat(ofrange).toFixed(2)
+        }
+
+        function cfCalc() {
+            // Sort the OF ranges
+
+            var ofarray = [];
+            ofarray[0] = document.getElementById("of1").value
+            ofarray[1] = document.getElementById("of2").value
+            ofarray[2] = document.getElementById("of3").value
+
+            ofarray.sort()
+
+            document.getElementById("of1").value = ofarray[2]
+            document.getElementById("of2").value = ofarray[1]
+            document.getElementById("of3").value = ofarray[0]
+
+            var cf = ofarray[2]
+
+            document.getElementById("cf1").value = cf * 1.4
+
+            document.getElementById("cfresult").value = ((cf * 1.4) + (ofarray[1] * 1) + (ofarray[0] * 1))        
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+ <form>
+ <fieldset>
+    <legend>Out of Position Adjustments</legend>
+    <table>
+        <tr><th>Position</th><th>Range</th><th>1B</th><th>2B</th><th>SS</th><th>3B</th><th>OF</th></tr>
+        <tr>
+            <td>1B</td>
+            <td><input id="first" class="firstcalc" name="first" onchange="calcFirst()"></td>
+            <td><input class="calced" id="first1B" readonly></td>
+            <td><input class="calced" id="first2B" readonly></td>
+            <td><input class="calced" id="firstSS" readonly></td>
+            <td><input class="calced" id="first3B" readonly></td>
+            <td><input class="calced" id="firstOF" readonly></td>
+    </tr>
+        <tr>
+            <td>2B</td>
+            <td><input id="second" class="secondcalc" name="second" onchange="calcSecond()""></td>
+            <td><input class="calced" id="second1B" readonly></td>
+            <td><input class="calced" id="second2B" readonly></td>
+            <td><input class="calced" id="secondSS" readonly></td>
+            <td><input class="calced" id="second3B" readonly></td>
+            <td><input class="calced" id="secondOF" readonly></td>
+    </tr>
+        <tr>
+            <td>SS</td>
+            <td><input id="short" class="shortcalc" name="short" onchange="calcShort()""></td>
+            <td><input class="calced" id="short1B" readonly></td>
+            <td><input class="calced" id="short2B" readonly></td>
+            <td><input class="calced" id="shortSS" readonly></td>
+            <td><input class="calced" id="short3B" readonly></td>
+            <td><input class="calced" id="shortOF" readonly></td>
+        </tr>
+        <tr>
+            <td>3B</td>
+                <td><input id="third" class="thirdcalc" name="third" onchange="calcThird()"></td>
+                <td><input class="calced" id="third1B" readonly></td>
+                <td><input class="calced" id="third2B" readonly></td>
+                <td><input class="calced" id="thirdSS" readonly></td>
+                <td><input class="calced" id="third3B" readonly></td>
+                <td><input class="calced" id="thirdOF" readonly></td>
+        </tr>
+        <tr>
+            <td>OF</td>
+            <td><input id="of" class="ofcalc" name="of" onchange="calcOF()"></td>
+            <td><input class="calced" id="of1B" readonly></td>
+            <td><input class="calced" id="of2B" readonly></td>
+            <td><input class="calced" id="ofSS" readonly></td>
+            <td><input class="calced" id="of3B" readonly></td>
+            <td><input class="calced" id="ofOF" readonly></td>
+        </tr>
+    </table>
+ </fieldset>
+ <fieldset>
+        <legend>CF Adjustments</legend>
+        <table>
+         <tr><th>Range</th><th>CF with Bonus</th></tr>
+         <tr><td><b>CF:</b>&nbsp;<input id="of1" class="cfcalc" name="of1" onchange="cfCalc()" value="2.15"></td><td><input id="cf1" class="cfalced" readonly></td><td></td></tr>
+         <tr><td><b>RF:</b>&nbsp;<input id="of2" class="cfcalc" name="of2" onchange="cfCalc()" value="2.10"></td><td><td></td></tr>
+         <tr><td><b>LF:</b>&nbsp;<input id="of3" class="cfcalc" name="of3" onchange="cfCalc()" value="2.10"></td><td><td></td></tr>
+         <tr><td></td><td><b>Combined OF Range:</b></td><td><input id="cfresult" class="cfcalced" name="cfresult" readonly></td></tr>
+     </table>
+ </fieldset>
+ </form>
+</body>
+</html>
+
