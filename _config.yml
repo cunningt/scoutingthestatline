@@ -1,21 +1,7 @@
-baseurl:
 title: Scouting the Statline
-subtitle: Minor league comps 
-author: StS 
-simple_search: http://google.com/search
-description: Minor league age based comps 
-name: tufte
-markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:short_year/:title
-timezone: America/Boston
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: ['Gemfile', 'Rakefile', 'README.md']
-post:
-  template: _post.txt
-  extension: md
-page:
-  template: _page.txt
-  extension: md
-git:
-  branch: master
+description: Minor league stats projects
+logo: assets//images/bio-photo.jpg
+show_downloads: false
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.scoutingthestatline.com" # the base hostname & protocol for your site, e.g. http://example.com
+
