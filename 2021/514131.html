@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Joe Gray, (A+ HAC)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Joe Gray, 2021 (A+ / HAC)</h2></b><br>
+            <b>HAC League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=BABIP&group=league', 'Age/BABIP HAC League Graph', 'This graph shows Joe Gray in relation to all other players in the HAC.    The graph shows BABIP according to age, decreasing towards the youngest players in HAC.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=bbrate&group=league', 'Age/BB% HAC League Graph', 'This graph shows Joe Gray in relation to all other players in the HAC.    The graph shows BB% according to age, decreasing towards the youngest players in HAC.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=ISOP&group=league', 'Age/ISO HAC League Graph', 'This graph shows Joe Gray in relation to all other players in the HAC.    The graph shows ISO according to age, decreasing towards the youngest players in HAC.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=krate&group=league', 'Age/K% HAC League Graph', 'This graph shows Joe Gray in relation to all other players in the HAC.    The graph shows K% according to age, decreasing towards the youngest players in HAC.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=WOBA&group=league', 'Age/wOBA HAC League Graph', 'This graph shows Joe Gray in relation to all other players in the HAC.    The graph shows wOBA according to age, decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A+ Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=BABIP&group=level', 'Age/BABIP A+ Level Graph', 'This graph shows Joe Gray in relation to all other players at A+.    The graph shows BABIP according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=bbrate&group=level', 'Age/BB% A+ Level Graph', 'This graph shows Joe Gray in relation to all other players at A+.    The graph shows BB% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=ISOP&group=level', 'Age/ISO A+ Level Graph', 'This graph shows Joe Gray in relation to all other players at A+.    The graph shows ISO according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=krate&group=level', 'Age/K% A+ Level Graph', 'This graph shows Joe Gray in relation to all other players at A+.    The graph shows K% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=WOBA&group=level'), 'Age/wOBA A+ Level Graph', 'This graph shows Joe Gray in relation to all other players at A+.    The graph shows wOBA according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=514131&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Joe Gray in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=514131&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Joe Gray in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=514131&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Joe Gray in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=514131&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Joe Gray in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=514131&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Joe Gray in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A+.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=514131&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Joe Gray's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=514131&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Joe Gray's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2018</td><td>18.011</td><td>Rk</td><td>.142</td><td>.235</td><td>.299</td><td>25.5</td><td>18.4</td></tr>
+</tr>
+<tr>
+<td>2019</td><td>19.011</td><td>Rk</td><td>.136</td><td>.208</td><td>.238</td><td>27.9</td><td>10.1</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A</td><td>.342</td><td>.361</td><td>.413</td><td>26.4</td><td>14.3</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A+</td><td>.162</td><td>.276</td><td>.277</td><td>28.2</td><td>8.1</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Joe Gray in relation to all other players at A+.    The graph shows BABIP according to age (decreasing towards the youngest players in A+).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=514131&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Year</th><th>Age</th><th>Level</th><th>Majors</th><th>WAR2</th><th>WAR4</th><th>WAR8</th><th>WAR16</th><th>WAR32</th><th>Total</th>
+</tr>
+</thead>
+<tr>
+<td>2018</td><td>18.011</td><td>Rk</td><td>12.11%</td><td>4.17%</td><td>2.93%</td><td>1.95%</td><td>0.30%</td><td>0.16%</td><td>0.52</td></tr>
+</tr>
+<tr>
+<td>2019</td><td>19.011</td><td>Rk</td><td>7.68%</td><td>2.09%</td><td>1.42%</td><td>0.77%</td><td>0.09%</td><td>0.11%</td><td>0.25</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A</td><td>1.45%</td><td>0.03%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.02</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A+</td><td>3.15%</td><td>0.32%</td><td>0.12%</td><td>0.03%</td><td>0.01%</td><td>0.00%</td><td>0.05</td></tr>
+</tr>
+</table>
+</br>
+<b>Similar minor league seasons to Joe Gray, 2021 (A+ HAC)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=gray--002joe#standard_batting::none"><b>Joe Gray</b></a></td><td>21.0137</td><td>2021</td><td>A+</td><td>0.0</td><td>.162</td><td>.277</td><td>.276</td><td>8.1</td><td>28.2</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=alder-001jam#standard_batting::none"><b>Jimmy Alder</b></a></td><td>21.0137</td><td>1993</td><td>A+</td><td>0.629256</td><td>.148</td><td>.275</td><td>.250</td><td>9.3</td><td>26.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pernel001bra#standard_batting::none"><b>Brandon Pernell</b></a></td><td>21.0137</td><td>1998</td><td>A+</td><td>0.691573</td><td>.176</td><td>.270</td><td>.273</td><td>7.9</td><td>27.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=torrea001ste#standard_batting::none"><b>Steve Torrealba</b></a></td><td>21.0137</td><td>1999</td><td>A+</td><td>0.772629</td><td>.154</td><td>.269</td><td>.254</td><td>6.7</td><td>24.4</td><td>-0.30</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=specht001bri#standard_batting::none"><b>Brian Specht</b></a></td><td>21.0137</td><td>2001</td><td>A+</td><td>0.864528</td><td>.174</td><td>.307</td><td>.316</td><td>8.1</td><td>26.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=delacr001jos#standard_batting::none"><b>Jose De La Cruz</b></a></td><td>21.0137</td><td>1999</td><td>A+</td><td>0.903629</td><td>.165</td><td>.280</td><td>.246</td><td>9.2</td><td>24.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=moore-001sco#standard_batting::none"><b>Scott Moore</b></a></td><td>21.0164</td><td>2004</td><td>A+</td><td>0.95127</td><td>.161</td><td>.298</td><td>.286</td><td>10.8</td><td>27.6</td><td>-0.83</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=willia001gle#standard_batting::none"><b>Glenn Williams</b></a></td><td>21.0137</td><td>1998</td><td>A+</td><td>0.954603</td><td>.117</td><td>.262</td><td>.277</td><td>7.1</td><td>25.4</td><td>0.07</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=burges002mic#standard_batting::none"><b>Michael Burgess</b></a></td><td>21.0137</td><td>2009</td><td>A+</td><td>0.969992</td><td>.175</td><td>.311</td><td>.287</td><td>9.9</td><td>24.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=johnso005jer#standard_batting::none"><b>J.J. Johnson</b></a></td><td>21.0137</td><td>1994</td><td>A+</td><td>1.00202</td><td>.151</td><td>.288</td><td>.286</td><td>6.5</td><td>23.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=salced002edw#standard_batting::none"><b>Edward Salcedo</b></a></td><td>21.0164</td><td>2012</td><td>A+</td><td>1.01381</td><td>.171</td><td>.300</td><td>.295</td><td>6.5</td><td>25.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=boliva001dom#standard_batting::none"><b>Domnit Bolivar</b></a></td><td>21.0137</td><td>2010</td><td>A+</td><td>1.02071</td><td>.122</td><td>.239</td><td>.254</td><td>5.5</td><td>27.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=pham--001tho#standard_batting::none"><b>Tommy Pham</b></a></td><td>21.0137</td><td>2009</td><td>A+</td><td>1.05687</td><td>.145</td><td>.297</td><td>.308</td><td>9.5</td><td>26.8</td><td>14.65</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=benavi001jul#standard_batting::none"><b>Julian Benavidez</b></a></td><td>21.0137</td><td>2003</td><td>A+</td><td>1.07311</td><td>.105</td><td>.252</td><td>.267</td><td>7.3</td><td>25.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=martin001hip#standard_batting::none"><b>Hipolito Martinez</b></a></td><td>21.0137</td><td>1998</td><td>A+</td><td>1.07844</td><td>.158</td><td>.301</td><td>.309</td><td>10.3</td><td>28.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=aldrid001cor#standard_batting::none"><b>Cory Aldridge</b></a></td><td>21.0164</td><td>2000</td><td>A+</td><td>1.09456</td><td>.182</td><td>.312</td><td>.306</td><td>7.4</td><td>26.6</td><td>-0.43</td></tr>
+</table></br>
+</body></table>

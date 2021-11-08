@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Shay Whitcomb, (A LAE)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Shay Whitcomb, 2021 (A / LAE)</h2></b><br>
+            <b>LAE League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=BABIP&group=league', 'Age/BABIP LAE League Graph', 'This graph shows Shay Whitcomb in relation to all other players in the LAE.    The graph shows BABIP according to age, decreasing towards the youngest players in LAE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=bbrate&group=league', 'Age/BB% LAE League Graph', 'This graph shows Shay Whitcomb in relation to all other players in the LAE.    The graph shows BB% according to age, decreasing towards the youngest players in LAE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=ISOP&group=league', 'Age/ISO LAE League Graph', 'This graph shows Shay Whitcomb in relation to all other players in the LAE.    The graph shows ISO according to age, decreasing towards the youngest players in LAE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=krate&group=league', 'Age/K% LAE League Graph', 'This graph shows Shay Whitcomb in relation to all other players in the LAE.    The graph shows K% according to age, decreasing towards the youngest players in LAE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=WOBA&group=league', 'Age/wOBA LAE League Graph', 'This graph shows Shay Whitcomb in relation to all other players in the LAE.    The graph shows wOBA according to age, decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=BABIP&group=level', 'Age/BABIP A Level Graph', 'This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=bbrate&group=level', 'Age/BB% A Level Graph', 'This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=ISOP&group=level', 'Age/ISO A Level Graph', 'This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=krate&group=level', 'Age/K% A Level Graph', 'This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=WOBA&group=level'), 'Age/wOBA A Level Graph', 'This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=515550&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Shay Whitcomb in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=515550&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Shay Whitcomb in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=515550&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Shay Whitcomb in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=515550&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Shay Whitcomb in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=515550&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Shay Whitcomb in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=515550&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Shay Whitcomb's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=515550&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Shay Whitcomb's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2021</td><td>23.0164</td><td>A</td><td>.147</td><td>.375</td><td>.343</td><td>28.3</td><td>10.7</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>23.0164</td><td>A+</td><td>.300</td><td>.391</td><td>.392</td><td>31.5</td><td>7.4</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Shay Whitcomb in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=515550&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Year</th><th>Age</th><th>Level</th><th>Majors</th><th>WAR2</th><th>WAR4</th><th>WAR8</th><th>WAR16</th><th>WAR32</th><th>Total</th>
+</tr>
+</thead>
+<tr>
+<td>2021</td><td>23.0164</td><td>A</td><td>0.41%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>23.0164</td><td>A+</td><td>0.93%</td><td>0.07%</td><td>0.02%</td><td>0.01%</td><td>0.00%</td><td>0.00%</td><td>0.01</td></tr>
+</tr>
+</table>
+</br>
+<b>Similar minor league seasons to Shay Whitcomb, 2021 (A LAE)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=whitco000sha#standard_batting::none"><b>Shay Whitcomb</b></a></td><td>23.0164</td><td>2021</td><td>A</td><td>0.0</td><td>.147</td><td>.343</td><td>.375</td><td>10.7</td><td>28.3</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=nash--002rob#standard_batting::none"><b>Robert Nash</b></a></td><td>23.0137</td><td>1967</td><td>A</td><td>0.434497</td><td>.133</td><td>.327</td><td>.374</td><td>10.5</td><td>27.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=tidwel001dav#standard_batting::none"><b>Dave Tidwell</b></a></td><td>23.0164</td><td>1998</td><td>A</td><td>0.693697</td><td>.119</td><td>.343</td><td>.406</td><td>11.0</td><td>26.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=owens-001jer#standard_batting::none"><b>Jeremy Owens</b></a></td><td>23.0137</td><td>1999</td><td>A</td><td>0.710556</td><td>.150</td><td>.338</td><td>.378</td><td>10.6</td><td>25.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cook--001chr#standard_batting::none"><b>Chris Cook</b></a></td><td>23.0164</td><td>2006</td><td>A</td><td>0.711909</td><td>.131</td><td>.316</td><td>.351</td><td>10.0</td><td>28.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=wakela001chr#standard_batting::none"><b>Chris Wakeland</b></a></td><td>23.0164</td><td>1997</td><td>A</td><td>0.714998</td><td>.152</td><td>.339</td><td>.377</td><td>9.2</td><td>25.6</td><td>0.44</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bell--001leo#standard_batting::none"><b>Lenny Bell</b></a></td><td>23.2082</td><td>1989</td><td>A</td><td>0.730498</td><td>.129</td><td>.326</td><td>.357</td><td>10.0</td><td>25.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=rich--002jam#standard_batting::none"><b>James Rich</b></a></td><td>23.0164</td><td>1973</td><td>A</td><td>0.789433</td><td>.134</td><td>.327</td><td>.357</td><td>9.1</td><td>25.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lenner001jor#standard_batting::none"><b>Jordan Lennerton</b></a></td><td>23.0164</td><td>2009</td><td>A</td><td>0.811961</td><td>.152</td><td>.353</td><td>.365</td><td>12.7</td><td>25.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=hether001luk#standard_batting::none"><b>Luke Hetherington</b></a></td><td>23.0164</td><td>2006</td><td>A</td><td>0.826013</td><td>.126</td><td>.347</td><td>.384</td><td>11.1</td><td>23.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=fitzpa001reg#standard_batting::none"><b>Reggie Fitzpatrick</b></a></td><td>23.0164</td><td>2006</td><td>A</td><td>0.876911</td><td>.153</td><td>.339</td><td>.361</td><td>8.9</td><td>24.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=bailey001gre#standard_batting::none"><b>Greg Bailey</b></a></td><td>23.0164</td><td>1985</td><td>A</td><td>0.894501</td><td>.145</td><td>.313</td><td>.362</td><td>8.6</td><td>31.5</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lemons001ric#standard_batting::none"><b>Rich Lemons</b></a></td><td>23.0164</td><td>1994</td><td>A</td><td>0.897968</td><td>.183</td><td>.349</td><td>.374</td><td>11.3</td><td>29.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=schram001mar#standard_batting::none"><b>Mark Schramek</b></a></td><td>23.0137</td><td>2003</td><td>A</td><td>0.911982</td><td>.150</td><td>.341</td><td>.397</td><td>8.2</td><td>25.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=cage--001way#standard_batting::none"><b>Wayne Cage</b></a></td><td>23.0164</td><td>1974</td><td>A</td><td>0.943605</td><td>.130</td><td>.328</td><td>.349</td><td>9.8</td><td>23.7</td><td>0.10</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=norwoo002wil#standard_batting::none"><b>Willie Norwood</b></a></td><td>23.0164</td><td>1973</td><td>A</td><td>0.94362</td><td>.158</td><td>.333</td><td>.357</td><td>9.3</td><td>26.1</td><td>-1.28</td></tr>
+</table></br>
+</body></table>

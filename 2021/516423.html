@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Ben Malgeri, (A LASE)</title>
+<link rel="stylesheet" href="./lightbox.min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+function changeGraphic(img, text, description) {
+    document.getElementById("graph").src=img;
+    document.getElementById("link").href=img;
+    graph = document.getElementById("graph");
+    graph.setAttribute("alt", text);
+    document.getElementById("graph").alt=text;
+    link = document.getElementById("link");
+    link.setAttribute("data-title", description);
+}
+</script>
+</head><body>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;border:none;">
+    <tr>
+        <td max-width="75%">
+            <b><h2>Ben Malgeri, 2021 (A / LASE)</h2></b><br>
+            <b>LASE League Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=BABIP&group=league', 'Age/BABIP LASE League Graph', 'This graph shows Ben Malgeri in relation to all other players in the LASE.    The graph shows BABIP according to age, decreasing towards the youngest players in LASE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=bbrate&group=league', 'Age/BB% LASE League Graph', 'This graph shows Ben Malgeri in relation to all other players in the LASE.    The graph shows BB% according to age, decreasing towards the youngest players in LASE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=ISOP&group=league', 'Age/ISO LASE League Graph', 'This graph shows Ben Malgeri in relation to all other players in the LASE.    The graph shows ISO according to age, decreasing towards the youngest players in LASE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=krate&group=league', 'Age/K% LASE League Graph', 'This graph shows Ben Malgeri in relation to all other players in the LASE.    The graph shows K% according to age, decreasing towards the youngest players in LASE.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=WOBA&group=league', 'Age/wOBA LASE League Graph', 'This graph shows Ben Malgeri in relation to all other players in the LASE.    The graph shows wOBA according to age, decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>A Level Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=BABIP&group=level', 'Age/BABIP A Level Graph', 'This graph shows Ben Malgeri in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=bbrate&group=level', 'Age/BB% A Level Graph', 'This graph shows Ben Malgeri in relation to all other players at A.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=ISOP&group=level', 'Age/ISO A Level Graph', 'This graph shows Ben Malgeri in relation to all other players at A.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=krate&group=level', 'Age/K% A Level Graph', 'This graph shows Ben Malgeri in relation to all other players at A.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=WOBA&group=level'), 'Age/wOBA A Level Graph', 'This graph shows Ben Malgeri in relation to all other players at A.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Comp Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=516423&criteria=BABIP', 'Age/BABIP Comps Graph', 'This graph shows Ben Malgeri in relation to his top Mahalanobis comps.    The graph shows BABIP according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BABIP</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=516423&criteria=bbrate', 'Age/BB% Comps Graph', 'This graph shows Ben Malgeri in relation to his top Mahalanobis comps.    The graph shows BB% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/BB%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=516423&criteria=ISOP'), 'Age/ISO Comps Graph', 'This graph shows Ben Malgeri in relation to his top Mahalanobis comps.    The graph shows ISO according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/ISO</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=516423&criteria=krate', 'Age/K% Comps Graph', 'This graph shows Ben Malgeri in relation to his top Mahalanobis comps.    The graph shows K% according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/K%</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/comps.fcgi?uid=516423&criteria=WOBA', 'Age/wOBA Comps Graph', 'This graph shows Ben Malgeri in relation to  his top Mahalanobis comps.    The graph shows wOBA according to age (decreasing towards the youngest players in A.   The markers are sized by K% - players with a lower K% have a smaller icon marker.')">Age/wOBA</a><br/>
+            <b>Projected Value Graphs:</b> <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=516423&criteria=WAR&graphtype=BOX', 'WAR box and whisker graph', 'This graph shows a box and whisker plot of the WAR distribution of Ben Malgeri's Mahalanobis comps.   It is meant to help visualize the distribution of value.')">WAR box/whisker</a>
+            <a href="javascript:void(0);" onclick="changeGraphic('http://www.rotowatch.com/cgi-bin/value.fcgi?uid=516423&criteria=WAR&graphtype=DIST', 'WAR distribution', 'This graph shows a bar chart of the WAR distribution of Ben Malgeri's Mahalanobis comps.">WAR dist</a>
+</br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead><tr><th>Year</th><th>Age</th><th>Level</th><th>ISO</th><th>BABIP</th><th>wOBA</th><th>K%</th><th>BB%</th></tr></thead>
+<tr>
+<td>2021</td><td>21.0137</td><td>Rk</td><td>.857</td><td>.000</td><td>.557</td><td>0.0</td><td>0.0</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A</td><td>.113</td><td>.350</td><td>.307</td><td>23.6</td><td>8.4</td></tr>
+</tr>
+</table>
+        </td>
+        <td max-width="25%">
+            <div>
+                <a id="link" class="example-image-link" href="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=BABIP&group=league" data-lightbox="example-2" data-title="This graph shows Ben Malgeri in relation to all other players at A.    The graph shows BABIP according to age (decreasing towards the youngest players in A).   The markers are sized by K% - players with a lower K% have a smaller icon marker."><img id="graph" class="example-image" width="420" height="320" src="http://www.rotowatch.com/cgi-bin/league.fcgi?uid=516423&criteria=BABIP&group=league" alt="Age/BABIP"/></a>
+            </div>
+            <script src="./lightbox-plus-jquery.min.js"></script>
+        </td>
+    </tr>
+</table>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Year</th><th>Age</th><th>Level</th><th>Majors</th><th>WAR2</th><th>WAR4</th><th>WAR8</th><th>WAR16</th><th>WAR32</th><th>Total</th>
+</tr>
+</thead>
+<tr>
+<td>2021</td><td>21.0137</td><td>Rk</td><td>2.58%</td><td>0.42%</td><td>0.26%</td><td>0.09%</td><td>0.01%</td><td>0.05%</td><td>0.05</td></tr>
+</tr>
+<tr>
+<td>2021</td><td>21.0137</td><td>A</td><td>1.44%</td><td>0.03%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.02</td></tr>
+</tr>
+</table>
+</br>
+<b>Similar minor league seasons to Ben Malgeri, 2021 (A LASE)</b>
+</br></br>
+<table class="pure-table pure-table-horizontal" style="max-width:100%;">
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=malger000ben#standard_batting::none"><b>Ben Malgeri</b></a></td><td>21.0137</td><td>2021</td><td>A</td><td>0.0</td><td>.113</td><td>.307</td><td>.350</td><td>8.4</td><td>23.6</td><td>---</td></tr>
+<thead>
+<tr>
+<th>Name</th><th>Age</th><th>Year</th><th>Level</th><th>Mahalanobis</th><th>ISO</th><th>wOBA</th><th>BABIP</th><th>BB%</th><th>K%</th><th>WAR</th>
+</tr>
+</thead>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=robins002chr#standard_batting::none"><b>Chris Robinson</b></a></td><td>21.0137</td><td>2005</td><td>A</td><td>0.225228</td><td>.108</td><td>.305</td><td>.336</td><td>9.1</td><td>23.6</td><td>-0.01</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=jones-006dar#standard_batting::none"><b>Daryl Jones</b></a></td><td>20.5945</td><td>2007</td><td>A</td><td>0.260432</td><td>.112</td><td>.307</td><td>.342</td><td>7.7</td><td>23.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=orr---001dav#standard_batting::none"><b>David Orr</b></a></td><td>21.5096</td><td>1974</td><td>A</td><td>0.262682</td><td>.110</td><td>.300</td><td>.335</td><td>7.5</td><td>23.3</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=burns-001pat#standard_batting::none"><b>Pat Burns</b></a></td><td>21.0137</td><td>1998</td><td>A</td><td>0.286606</td><td>.123</td><td>.310</td><td>.343</td><td>9.0</td><td>24.2</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=boylan001dor#standard_batting::none"><b>Doe Boyland</b></a></td><td>21.0164</td><td>1976</td><td>A</td><td>0.309685</td><td>.118</td><td>.305</td><td>.346</td><td>7.6</td><td>22.8</td><td>-0.07</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=french001ron#standard_batting::none"><b>Ron French</b></a></td><td>21.0137</td><td>1999</td><td>A</td><td>0.334178</td><td>.105</td><td>.301</td><td>.341</td><td>8.9</td><td>22.6</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=dening001mit#standard_batting::none"><b>Mitch Dening</b></a></td><td>21.0137</td><td>2009</td><td>A</td><td>0.370613</td><td>.099</td><td>.304</td><td>.335</td><td>8.9</td><td>21.7</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=lee---001jas#standard_batting::none"><b>Jason Lee</b></a></td><td>21.0137</td><td>1998</td><td>A</td><td>0.414325</td><td>.104</td><td>.307</td><td>.347</td><td>9.8</td><td>23.4</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=darnel001ric#standard_batting::none"><b>Dale Darnell</b></a></td><td>20.6904</td><td>1969</td><td>A</td><td>0.414708</td><td>.130</td><td>.314</td><td>.336</td><td>9.3</td><td>24.8</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=coolba001sco#standard_batting::none"><b>Scott Coolbaugh</b></a></td><td>21.0137</td><td>1987</td><td>A</td><td>0.459248</td><td>.115</td><td>.323</td><td>.350</td><td>9.2</td><td>21.5</td><td>-0.84</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=davis-007tho#standard_batting::none"><b>Tommy Davis</b></a></td><td>21.0137</td><td>1994</td><td>A</td><td>0.487288</td><td>.125</td><td>.315</td><td>.333</td><td>7.5</td><td>21.8</td><td>-0.09</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=czekaj001ric#standard_batting::none"><b>Richard Czekaj</b></a></td><td>20.6027</td><td>1956</td><td>A</td><td>0.502611</td><td>.123</td><td>.300</td><td>.331</td><td>7.1</td><td>26.1</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=mena--001ste#standard_batting::none"><b>Steve Mena</b></a></td><td>21.0137</td><td>2006</td><td>A</td><td>0.506377</td><td>.126</td><td>.314</td><td>.352</td><td>9.7</td><td>25.9</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=beal--001ant#standard_batting::none"><b>Tony Beal</b></a></td><td>21.0137</td><td>1982</td><td>A</td><td>0.50972</td><td>.120</td><td>.307</td><td>.328</td><td>9.7</td><td>24.0</td><td>0.00</td></tr>
+<tr>
+<td><a href="https://www.baseball-reference.com/register/player.fcgi?id=thomps009rob#standard_batting::none"><b>Robby Thompson</b></a></td><td>21.0137</td><td>1983</td><td>A</td><td>0.51455</td><td>.100</td><td>.294</td><td>.344</td><td>7.4</td><td>25.4</td><td>32.13</td></tr>
+</table></br>
+</body></table>
