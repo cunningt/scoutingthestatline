@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## [Minor League Comps](https://www.scoutingthestatline.com/rankings/rankings.html)
+## [Minor League Comps](https://www.scoutingthestatline.com/2019/rankings.html)
 
-I did a bunch of [minor league comps](https://www.scoutingthestatline.com/rankings/rankings.html) using the statistics that KATOH was interested in based on 2018 minor league performance.   
+I did a bunch of [minor league comps](https://www.scoutingthestatline.com/2019/rankings.html) using the statistics that KATOH was interested in based on 2018 minor league performance.   
 
 ## [RENGIFO](https://docs.google.com/spreadsheets/d/1KdALGo0VRN9I_DfUI8Bw975uk7sHm_cGID4kU_bFv7s/edit#gid=1480998312)
 
