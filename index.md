@@ -16,3 +16,4 @@ RENGIFO is weighted 70% current year performance, 30% previous year performance,
 
 I ported the Scoresheet [Out of Position Tool](./outofposition.html) over to JavaScript.
 
+<a rel="me" href="https://mastodon.social/@tcunning">Mastodon</a>
